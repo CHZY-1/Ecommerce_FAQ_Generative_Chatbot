@@ -20,6 +20,10 @@ function giveFeedback() {
 
         // Remove the feedback buttons
         removeFeedbackButtons();
+
+        // Set focus on the user input field
+        var userInput = document.getElementById('user-input');
+        userInput.focus();
     }
 }
 
