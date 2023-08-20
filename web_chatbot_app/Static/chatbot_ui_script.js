@@ -62,6 +62,8 @@ function sendUserMessageToServer(message) {
         message: message
     };
 
+    console.log(message)
+
     fetch('/chat', {
         method: 'POST',
         headers: {
@@ -73,6 +75,7 @@ function sendUserMessageToServer(message) {
     .then(data => {
         // Display the chatbot's response
         displayChatbotMessage(data.response);
+        console.log(data.response)
     })
     .catch(error => {
         console.error('Error:', error);
