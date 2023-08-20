@@ -4,6 +4,7 @@ from chatbot import Chatbot
 app = Flask(__name__)
 chatbot = Chatbot()
 
+# root
 @app.route('/')
 def index():
     return render_template('chatbot_ui.html')
