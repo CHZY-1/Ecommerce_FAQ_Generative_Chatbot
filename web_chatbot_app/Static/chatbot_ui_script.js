@@ -27,7 +27,8 @@ function handleInputKey(event) {
 }
 
 function sendMessage() {
-    // Get user input
+
+    // user input from input field
     var userInput = document.getElementById('user-input');
     var userMessage = userInput.value.trim();
 
@@ -38,7 +39,7 @@ function sendMessage() {
         // Clear the input field
         userInput.value = '';
 
-        // Remove feedback buttons if they exist
+        // Remove feedback buttons
         removeFeedbackButtons();
 
         // Send user message to server and receive response
@@ -56,9 +57,24 @@ function displayUserMessage(message) {
 }
 
 function sendUserMessageToServer(message) {
-    // Simulate server response for demonstration
-    var response = "Chatbot: You said: " + message;
-    setTimeout(function() {
-        displayChatbotMessage(response);
-    }, 1000);
+    // user message to send in the POST request
+    const data = {
+        message: message
+    };
+
+    fetch('/chat', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Display the chatbot's response
+        displayChatbotMessage(data.response);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
 }

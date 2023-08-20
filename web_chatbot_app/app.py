@@ -12,8 +12,8 @@ def index():
 def chat():
     data = request.json
     user_message = data['message']
-    response = chatbot.generate_response(user_message)
-    return jsonify({'response': response})
+    # response = chatbot.generate_response(user_message)
+    return jsonify({'response': user_message})
 
 if __name__ == '__main__':
     app.run(debug=True)
