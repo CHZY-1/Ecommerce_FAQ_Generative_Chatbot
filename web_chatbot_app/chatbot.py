@@ -12,7 +12,7 @@ class Chatbot:
 
         if model == "microsoft/DialoGPT-large":
             tokenizer = AutoTokenizer.from_pretrained(model)
-            model = AutoModelForCausalLM.from_pretrained("C:/Users/User/Desktop/tuned_dialogpt_Ecommerce_FAQ")
+            model = AutoModelForCausalLM.from_pretrained("D:/GitProjects/tuned_dialogpt")
 
         print("Model loaded")
 
@@ -38,10 +38,10 @@ class Chatbot:
             print("Generated response is empty. Resetting conversation history.")
             self.chat_history_ids = None
             self.reset_history + 1
+            print("Reset Count:", len(self.reset_history))
             return self.generate_response(user_question)  # Regenerate response
         
         print("Generated response length:", len(response))
-        print("Reset Count:", len(self.reset_history))
         self.chat_history_ids = chat_history_ids
 
         return response
