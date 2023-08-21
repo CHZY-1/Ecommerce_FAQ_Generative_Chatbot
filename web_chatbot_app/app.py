@@ -2,7 +2,15 @@ from flask import Flask, render_template, request, jsonify
 from chatbot import Chatbot
 
 app = Flask(__name__)
-chatbot = Chatbot()
+
+chatbot = None
+
+@app.before_first_request
+def initialize_chatbot():
+    global chatbot
+    # chatbot = Chatbot()
+    chatbot = Chatbot(model="C:/Users/User/Desktop/tuned_dialogpt_Ecommerce_FAQ", 
+                      tokenizer="microsoft/DialoGPT-large")
 
 # root
 @app.route('/')

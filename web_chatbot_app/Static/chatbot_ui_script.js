@@ -1,25 +1,4 @@
-// Feedback
-
-function displayChatbotMessage(message) {
-    var chatBox = document.getElementById('chat-box');
-    var chatbotMessageDiv = document.createElement('div');
-    chatbotMessageDiv.className = 'message chatbot-message';
-    chatbotMessageDiv.textContent = message;
-
-    // Append the chatbot message div to the chat box
-    chatBox.appendChild(chatbotMessageDiv);
-
-    // After appending the chatbot message div, insert feedback buttons
-    insertFeedbackButtons(chatbotMessageDiv);
-
-    // Scroll the chat box to show the new message
-    chatBox.scrollTop = chatBox.scrollHeight;
-
-    feedbackGiven = false;
-}
-
-// UI
-
+// UI Functions
 function handleInputKey(event) {
     if (event.key === 'Enter') {
         sendMessage();
@@ -27,8 +6,6 @@ function handleInputKey(event) {
 }
 
 function sendMessage() {
-
-    // user input from input field
     var userInput = document.getElementById('user-input');
     var userMessage = userInput.value.trim();
 
@@ -47,22 +24,51 @@ function sendMessage() {
     }
 }
 
+// Display Functions
 function displayUserMessage(message) {
-    var chatBox = document.getElementById('chat-box');
-    var userMessageDiv = document.createElement('div');
-    userMessageDiv.className = 'message user-message';
-    userMessageDiv.textContent = message;
-    chatBox.appendChild(userMessageDiv);
-    chatBox.scrollTop = chatBox.scrollHeight;
+    displayMessage(message, false);
 }
 
+function displayChatbotMessage(message) {
+    if (message.toLowerCase().includes("start over") || message.toLowerCase().includes("reset")) {
+        displayMessage(message, true, false, true); // Pass the isReset and hideFeedback parameters
+    } else {
+        displayMessage(message, true);
+    }
+}
+
+function displayMessage(message, isAssistant, hideFeedback = false, isReset = false) {
+    var chatBox = document.getElementById('chat-box');
+    var messageDiv = document.createElement('div');
+    
+    if (isReset) {
+        messageDiv.className = 'message reset-message';
+        messageDiv.textContent = message;
+    } else {
+        messageDiv.className = isAssistant ? 'message chatbot-message' : 'message user-message';
+        messageDiv.innerHTML = isAssistant ? `<span class="message-label">Assistant:</span> ${message}` : `<span class="message-label">User:</span> ${message}`;
+        
+        if (isAssistant && !hideFeedback) {
+            insertFeedbackButtons(messageDiv);
+        }
+    }
+    
+    chatBox.appendChild(messageDiv);
+    chatBox.scrollTop = chatBox.scrollHeight;
+
+    feedbackGiven = false;
+}
+
+
+// Server Communication
 function sendUserMessageToServer(message) {
-    // user message to send in the POST request
+
+    // user message
     const data = {
         message: message
     };
 
-    console.log(message)
+    console.log(message);
 
     fetch('/chat', {
         method: 'POST',
@@ -75,9 +81,16 @@ function sendUserMessageToServer(message) {
     .then(data => {
         // Display the chatbot's response
         displayChatbotMessage(data.response);
-        console.log(data.response)
+        console.log(data.response);
     })
     .catch(error => {
         console.error('Error:', error);
     });
 }
+
+// Event Listeners
+window.onload = function() {
+    // displayChatbotMessage("Hi there! How can I assist you?");
+    var userInput = document.getElementById('user-input');
+    userInput.focus();
+};
