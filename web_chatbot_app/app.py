@@ -13,7 +13,8 @@ chatbot = None
 @app.before_first_request
 def initialize_chatbot():
     global chatbot
-    chatbot = Chatbot(model="C:/Users/User/Desktop/tuned_dialogpt_Ecommerce_FAQ", 
+    # chatbot = Chatbot()
+    chatbot = Chatbot(model="D:/tuned_dialogpt_Ecommerce_FAQ", 
                       tokenizer="microsoft/DialoGPT-large")
     # chatbot = Chatbot(model="C:/Users/User/Desktop/tuned_dialogpt_Ecommerce_FAQ", 
     #                   tokenizer="microsoft/DialoGPT-large")
