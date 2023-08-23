@@ -1,31 +1,41 @@
 var feedbackGiven = false; // Initialize the feedback flag
 
-// Function to give feedback
-function giveFeedback() {
+function giveFeedback(isPositive) {
     if (!feedbackGiven) {
-        // Set the flag to true to indicate that feedback has been given for this response
         feedbackGiven = true;
 
         var chatBox = document.getElementById('chat-box');
         var feedbackDiv = document.createElement('div');
         feedbackDiv.className = 'message feedback-message';
 
-        feedbackDiv.textContent = "Thank you for your feedback!";
+        var feedbackMessage = isPositive ? 'Positive feedback received. Thank you!' : 'Negative feedback received. Thank you!';
+        feedbackDiv.textContent = feedbackMessage;
 
-        // Append the feedback div to the chat box
         chatBox.appendChild(feedbackDiv);
-
-        // Scroll the chat box to show the new message
         chatBox.scrollTop = chatBox.scrollHeight;
 
-        // Remove the feedback buttons
+        // Get the last chatbot response and update its feedback value
+        var lastChatbotResponse = getLastChatbotResponse();
+        if (lastChatbotResponse !== '') {
+            var feedbackValue = isPositive ? 1 : -1;
+            updateFeedbackValue(lastChatbotResponse, feedbackValue);
+            sendUpdatedFeedbackValue(lastChatbotResponse, feedbackValue);
+
+            // Update chat history
+            chatHistory.forEach(entry => {
+                if (entry.message === lastChatbotResponse) {
+                    entry.feedback = feedbackValue;
+                }
+            });
+        }
+
         removeFeedbackButtons();
 
-        // Set focus on the user input field
         var userInput = document.getElementById('user-input');
         userInput.focus();
     }
 }
+
 
 // Function to remove feedback buttons
 function removeFeedbackButtons() {
@@ -40,7 +50,6 @@ function insertFeedbackButtons(chatbotMessageDiv) {
     var feedbackDiv = document.createElement('div');
     feedbackDiv.className = 'feedback-buttons';
 
-    // Use Material Icons for the button icons
     feedbackDiv.innerHTML = `
         <button class="feedback-button positive" onclick="giveFeedback(true)">
             <span class="material-icons">thumb_up</span>
@@ -51,4 +60,48 @@ function insertFeedbackButtons(chatbotMessageDiv) {
     `;
 
     chatbotMessageDiv.appendChild(feedbackDiv);
+}
+
+// Helper function to get the last chatbot response
+function getLastChatbotResponse() {
+    var lastResponse = '';
+    for (var i = chatHistory.length - 1; i >= 0; i--) {
+        if (chatHistory[i].sender === 'chatbot') {
+            lastResponse = chatHistory[i].message;
+            break;
+        }
+    }
+    return lastResponse;
+}
+
+// Helper function to update feedback value in chat history
+function updateFeedbackValue(message, feedbackValue) {
+    for (var i = chatHistory.length - 1; i >= 0; i--) {
+        if (chatHistory[i].message === message) {
+            chatHistory[i].feedback = feedbackValue;
+            break;
+        }
+    }
+}
+
+function sendUpdatedFeedbackValue(message, feedbackValue) {
+    const data = {
+        message: message,
+        feedback: feedbackValue
+    };
+
+    fetch('/update_feedback_script', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log(data.message);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
 }

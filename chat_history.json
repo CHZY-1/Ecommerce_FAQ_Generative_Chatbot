@@ -1,0 +1,62 @@
+[
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello and thank you for the offer to join the team",
+        "feedback": -1
+    },
+    {
+        "user_message": "how are you?",
+        "chatbot_response": "I'm good and you",
+        "feedback": 1
+    },
+    {
+        "user_message": "tell me something about you",
+        "chatbot_response": "I can be a good person and a good leader",
+        "feedback": null
+    },
+    {
+        "user_message": "hows the weather in the country Malaysia?",
+        "chatbot_response": "It is a great place to be a leader and a great person",
+        "feedback": null
+    },
+    {
+        "user_message": "what is a leader",
+        "chatbot_response": "A leader is a person that is a part of the team and a part if the team is a team",
+        "feedback": 1
+    },
+    {
+        "user_message": "tell me a joke",
+        "chatbot_response": "What is your favorite color?",
+        "feedback": -1
+    },
+    {
+        "user_message": "my favorite color is white",
+        "chatbot_response": "What's your favorite colour",
+        "feedback": -1
+    },
+    {
+        "user_message": "is white",
+        "chatbot_response": "is a color",
+        "feedback": null
+    },
+    {
+        "user_message": "i know",
+        "chatbot_response": "is the color",
+        "feedback": -1
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "hello to you",
+        "feedback": 1
+    },
+    {
+        "user_message": "can i return my product?",
+        "chatbot_response": "yes you can return your product.",
+        "feedback": 1
+    },
+    {
+        "user_message": "what is the return policy",
+        "chatbot_response": "return your product if it is damaged or damaged. Please contact our customer support team for assistance.",
+        "feedback": 1
+    }
+]

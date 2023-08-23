@@ -1,3 +1,5 @@
+var chatHistory = []
+
 // UI Functions
 function handleInputKey(event) {
     if (event.key === 'Enter') {
@@ -20,24 +22,34 @@ function sendMessage() {
         removeFeedbackButtons();
 
         // Send user message to server and receive response
-        sendUserMessageToServer(userMessage);
+        if (!feedbackGiven) {
+            sendUserMessageToServer(userMessage);
+        }
     }
 }
 
 // Display Functions
 function displayUserMessage(message) {
-    displayMessage(message, false);
+    displayMessage(message, 'user');
+    // Update chat history
+    chatHistory.push({ sender: 'user', message: message });
 }
 
 function displayChatbotMessage(message) {
-    if (message.toLowerCase().includes("start over") || message.toLowerCase().includes("reset")) {
-        displayMessage(message, true, false, true); // Pass the isReset and hideFeedback parameters
-    } else {
-        displayMessage(message, true);
+    // Check if the message already exists in the chat history
+    if (!chatHistory.some(entry => entry.sender === 'chatbot' && entry.message === message)) {
+        if (message.toLowerCase().includes("start over") || message.toLowerCase().includes("reset")) {
+            displayMessage(message, 'chatbot', false, true);
+        } else {
+            displayMessage(message, 'chatbot');
+        }
+        // Update chat history
+        chatHistory.push({ sender: 'chatbot', message: message });
     }
 }
 
-function displayMessage(message, isAssistant, hideFeedback = false, isReset = false) {
+
+function displayMessage(message, sender, hideFeedback = false, isReset = false) {
     var chatBox = document.getElementById('chat-box');
     var messageDiv = document.createElement('div');
     
@@ -45,10 +57,10 @@ function displayMessage(message, isAssistant, hideFeedback = false, isReset = fa
         messageDiv.className = 'message reset-message';
         messageDiv.textContent = message;
     } else {
-        messageDiv.className = isAssistant ? 'message chatbot-message' : 'message user-message';
-        messageDiv.innerHTML = isAssistant ? `<span class="message-label">Assistant:</span> ${message}` : `<span class="message-label">User:</span> ${message}`;
+        messageDiv.className = sender === 'chatbot' ? 'message chatbot-message' : 'message user-message';
+        messageDiv.innerHTML = sender === 'chatbot' ? `<span class="message-label">Assistant:</span> ${message}` : `<span class="message-label">User:</span> ${message}`;
         
-        if (isAssistant && !hideFeedback) {
+        if (sender === 'chatbot' && !hideFeedback) {
             insertFeedbackButtons(messageDiv);
         }
     }
@@ -59,13 +71,12 @@ function displayMessage(message, isAssistant, hideFeedback = false, isReset = fa
     feedbackGiven = false;
 }
 
-
 // Server Communication
-function sendUserMessageToServer(message) {
-
-    // user message
+function sendUserMessageToServer(message, feedbackValue = null) {
+    // user message and feedback value
     const data = {
-        message: message
+        message: message,
+        feedback: feedbackValue
     };
 
     console.log(message);
