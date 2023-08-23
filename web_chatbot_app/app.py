@@ -9,7 +9,7 @@ chatbot = None
 def initialize_chatbot():
     global chatbot
     # chatbot = Chatbot()
-    chatbot = Chatbot(model="C:/Users/User/Desktop/tuned_dialogpt_Ecommerce_FAQ", 
+    chatbot = Chatbot(model="D:/tuned_dialogpt_Ecommerce_FAQ", 
                       tokenizer="microsoft/DialoGPT-large")
 
 # root
