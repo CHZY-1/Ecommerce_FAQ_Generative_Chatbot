@@ -4,22 +4,24 @@ from chatbot import Chatbot
 # functions
 from manage_chat import load_chat_history, save_chat_history, add_user_message, add_chatbot_response, update_feedback
 
-from manage_chat import chat_history # variable
-
 app = Flask(__name__)
 
 chatbot = None
 
+chat_history = []
+
+CHAT_HISTORY_PATH = "chat_history.json"
+
 @app.before_first_request
 def initialize_chatbot():
-    global chatbot
+    global chatbot, chat_history
     # chatbot = Chatbot()
     # chatbot = Chatbot(model="D:/tuned_dialogpt_Ecommerce_FAQ", 
     #                   tokenizer="microsoft/DialoGPT-large")
     chatbot = Chatbot(model="C:/Users/User/Desktop/tuned_dialogpt_Ecommerce_FAQ", 
                       tokenizer="microsoft/DialoGPT-large")
-    load_chat_history()
-    print(chat_history)
+    chat_history = load_chat_history(CHAT_HISTORY_PATH)
+    # print(chat_history)
 
 @app.route('/')
 def index():
@@ -31,8 +33,8 @@ def update_feedback_script():
     message = feedback_data['message']
     feedback_value = feedback_data['feedback']
 
-    update_feedback(message, feedback_value)
-    save_chat_history()  # Save the updated chat history
+    update_feedback(message, feedback_value, chat_history, CHAT_HISTORY_PATH)
+    save_chat_history(chat_history, CHAT_HISTORY_PATH)  # Save the updated chat history
 
     return jsonify({'message': 'Feedback value updated successfully from feedback script'})
 
@@ -42,14 +44,14 @@ def chat():
     user_message = data['message']
     feedback_value = data.get('feedback')  # Get feedback value from request data, it can be None
     
-    add_user_message(user_message)
+    add_user_message(user_message, chat_history)
     response = chatbot.generate_response(user_message)
-    add_chatbot_response(response)
+    add_chatbot_response(response, chat_history)
     
     if feedback_value is not None:  # Only update feedback if it's provided
         update_feedback(response, feedback_value)
     
-    save_chat_history()  # Save chat history after each interaction
+    save_chat_history(chat_history, CHAT_HISTORY_PATH)  # Save chat history after each interaction
     
     return jsonify({'response': response})
 
