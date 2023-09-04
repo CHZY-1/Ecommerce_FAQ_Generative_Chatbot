@@ -1,5 +1,6 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
+import random
 
 class Chatbot:
     def __init__(self, model=None, tokenizer=None):
@@ -70,6 +71,51 @@ class Chatbot:
         self.chat_history_ids = chat_history_ids
 
         return response
+    
+    def generate_responses(self, user_question):
+
+        if user_question.lower() in ['start over', 'reset']:
+            self.reset_chat_history()
+            return "Conversation reset"
+
+        # Warning: A decoder-only architecture is being used, but right-padding was detected!
+        # For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+
+        # Change padding to left causes the bot to generate weird responses. Use right padding instead.
+        new_input_ids = self.tokenizer.encode(user_question + self.tokenizer.eos_token, return_tensors='pt')
+        bot_input_ids = torch.cat([self.chat_history_ids, new_input_ids], dim=-1) if self.chat_history_ids is not None else new_input_ids
+
+        responses = []
+        
+        # Generate multiple response variations with different levels of randomness
+        num_variations = 3 
+        for _ in range(num_variations):
+            temperature = random.uniform(0.5, 1.0)  # Randomize temperature for variability
+            chat_history_ids = self.model.generate(
+                bot_input_ids,
+                max_length=500,
+                min_length=10,
+                temperature=temperature,
+                top_k=50,
+                top_p=0.95,
+                no_repeat_ngram_size=3,
+                pad_token_id=self.tokenizer.eos_token_id
+            )
+            response_variation = self.tokenizer.decode(chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)
+            responses.append(response_variation)
+
+        # Randomly select one of the responses
+        final_response = random.choice(responses)
+
+        if not final_response.strip() or self.is_repetitive_response(final_response):
+            print("Generated response is empty or repetitive. Resetting conversation history.")
+            self.reset_chat_history()
+            return self.generate_response(user_question)
+
+        print("Generated response length:", len(final_response))
+        self.chat_history_ids = chat_history_ids
+
+        return final_response
 
     # use parameters no_repeat_ngram_size in generate respond to handle repetitive respond.
     def is_repetitive_response(self, response, threshold=3):
