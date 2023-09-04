@@ -73,5 +73,25 @@
         "user_message": "thanks for your help",
         "chatbot_response": "You are welcome",
         "feedback": 1
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello and thank you for the offer to join the team",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello to you as well",
+        "feedback": null
+    },
+    {
+        "user_message": "can you help me",
+        "chatbot_response": "message me your email and I will add you to the team and we can discuss the details",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hi can I join the chat and discuss the team details",
+        "feedback": null
     }
 ]

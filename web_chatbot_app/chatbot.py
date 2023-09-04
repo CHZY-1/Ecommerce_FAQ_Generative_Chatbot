@@ -46,6 +46,8 @@ class Chatbot:
 
         # change padding to left causes bot to genearte wierd respond, use right padding instead
         new_input_ids = self.tokenizer.encode(user_question + self.tokenizer.eos_token, return_tensors='pt')
+        # new_input_ids = self.tokenizer.encode(self.tokenizer.eos_token + user_question, return_tensors='pt')
+
         bot_input_ids = torch.cat([self.chat_history_ids, new_input_ids], dim=-1) if self.chat_history_ids is not None else new_input_ids
 
         chat_history_ids = self.model.generate(

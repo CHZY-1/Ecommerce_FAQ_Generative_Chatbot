@@ -45,7 +45,7 @@ def chat():
     feedback_value = data.get('feedback')  # Get feedback value from request data, it can be None
     
     add_user_message(user_message, chat_history)
-    response = chatbot.generate_response(user_message)
+    response = chatbot.generate_responses(user_message)
     add_chatbot_response(response, chat_history)
     
     if feedback_value is not None:  # Only update feedback if it's provided
