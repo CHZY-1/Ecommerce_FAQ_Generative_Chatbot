@@ -1,0 +1,3242 @@
+[
+  {
+    "response_type": "date",
+    "user_input": [
+      "today",
+      "date"
+    ],
+    "bot_response": "Today date is 2023-09-05",
+    "required_words": [
+      "today"
+    ]
+  },
+  {
+    "response_type": "time",
+    "user_input": [
+      "today",
+      "time"
+    ],
+    "bot_response": "Today date is 14:30:15",
+    "required_words": [
+      "today"
+    ]
+  },
+  {
+    "response_type": "date_time",
+    "user_input": [
+      "today",
+      "time",
+      "date"
+    ],
+    "bot_response": "Today date and time is 2023-09-0514:30:15",
+    "required_words": [
+      "today"
+    ]
+  },
+  {
+    "response_type": "greeting_hello",
+    "user_input": [
+      "hello",
+      "hi",
+      "hey",
+      "hi there",
+      "greetings"
+    ],
+    "bot_response": "Hello! How can I assist you today?",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting_goodbye",
+    "user_input": [
+      "goodbye",
+      "bye",
+      "see you",
+      "take care",
+      "farewell"
+    ],
+    "bot_response": "Goodbye! Feel free to reach out if you have more questions in the future.",
+    "required_words": []
+  },
+  {
+    "response_type": "general_thanks",
+    "user_input": [
+      "thank you",
+      "thanks",
+      "appreciate it",
+      "grateful"
+    ],
+    "bot_response": "You're welcome! If you need any further assistance, feel free to ask.",
+    "required_words": []
+  },
+  {
+    "response_type": "general_apologies",
+    "user_input": [
+      "sorry",
+      "apologies",
+      "forgive"
+    ],
+    "bot_response": "No problem! If you have any more questions, feel free to ask.",
+    "required_words": [
+      "sorry"
+    ]
+  },
+  {
+    "response_type": "general_help",
+    "user_input": [
+      "help",
+      "assistance",
+      "need",
+      "support"
+    ],
+    "bot_response": "Of course! I'm here to help. What can I assist you with?",
+    "required_words": [
+      "help"
+    ]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "see you",
+      "goodbye",
+      "bye"
+    ],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "nice",
+      "to",
+      "meet",
+      "you"
+    ],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": [
+      "nice",
+      "meet",
+      "you"
+    ]
+  },
+  {
+    "response_type": "shutdown",
+    "user_input": [
+      "close",
+      "shut down",
+      "exit",
+      "program",
+      "bye"
+    ],
+    "bot_response": "You want to close the program ? (Type 'QUIT' to close the program)",
+    "required_words": [
+      "close",
+      "program"
+    ]
+  },
+  {
+    "response_type": "account_creation",
+    "user_input": [
+      "create account",
+      "sign up",
+      "register"
+    ],
+    "bot_response": "To create an account, click on the 'Sign Up' button on the top right corner of our website and follow the instructions to complete the registration process.",
+    "required_words": [
+      "create",
+      "account"
+    ]
+  },
+  {
+    "response_type": "payment_methods",
+    "user_input": [
+      "payment methods",
+      "accepted payments"
+    ],
+    "bot_response": "We accept major credit cards, debit cards, and PayPal as payment methods for online orders.",
+    "required_words": [
+      "payment",
+      "methods"
+    ]
+  },
+  {
+    "response_type": "order_tracking",
+    "user_input": [
+      "track my order",
+      "order tracking",
+      "where is my order"
+    ],
+    "bot_response": "You can track your order by logging into your account and navigating to the 'Order History' section. There, you will find the tracking information for your shipment.",
+    "required_words": [
+      "track",
+      "order"
+    ]
+  },
+  {
+    "response_type": "return_policy",
+    "user_input": [
+      "return policy",
+      "product returns",
+      "refund process"
+    ],
+    "bot_response": "Our return policy allows you to return products within 30 days of purchase for a full refund, provided they are in their original condition and packaging. Please refer to our Returns page for detailed instructions.",
+    "required_words": [
+      "return",
+      "policy"
+    ]
+  },
+  {
+    "response_type": "order_cancellation",
+    "user_input": [
+      "cancel my order",
+      "order cancellation",
+      "change my mind about order"
+    ],
+    "bot_response": "You can cancel your order if it has not been shipped yet. Please contact our customer support team with your order details, and we will assist you with the cancellation process.",
+    "required_words": [
+      "cancel",
+      "order"
+    ]
+  },
+  {
+    "response_type": "shipping_time",
+    "user_input": [
+      "shipping time",
+      "delivery duration",
+      "when will I get my order"
+    ],
+    "bot_response": "Shipping times vary depending on the destination and the shipping method chosen. Standard shipping usually takes 3-5 business days, while express shipping can take 1-2 business days.",
+    "required_words": [
+      "shipping",
+      "time"
+    ]
+  },
+  {
+    "response_type": "international_shipping",
+    "user_input": [
+      "international shipping",
+      "shipping to other countries",
+      "ship globally"
+    ],
+    "bot_response": "Yes, we offer international shipping to select countries. The availability and shipping costs will be calculated during the checkout process based on your location.",
+    "required_words": [
+      "international",
+      "shipping"
+    ]
+  },
+  {
+    "response_type": "lost_or_damaged_package",
+    "user_input": [
+      "lost package",
+      "damaged package",
+      "package problem"
+    ],
+    "bot_response": "If your package is lost or damaged during transit, please contact our customer support team immediately. We will initiate an investigation and take the necessary steps to resolve the issue.",
+    "required_words": [
+      "package",
+      "lost",
+      "damaged"
+    ]
+  },
+  {
+    "response_type": "change_shipping_address",
+    "user_input": [
+      "change shipping address",
+      "update delivery address",
+      "wrong address on order"
+    ],
+    "bot_response": "If you need to change your shipping address, please contact our customer support team as soon as possible. We will do our best to update the address if the order has not been shipped yet.",
+    "required_words": [
+      "change",
+      "shipping",
+      "address"
+    ]
+  },
+  {
+    "response_type": "contact_customer_support",
+    "user_input": [
+      "contact customer support",
+      "get in touch with support",
+      "customer service contact"
+    ],
+    "bot_response": "You can contact our customer support team by phone at [phone number] or by email at [email address]. Our team is available [working hours] to assist you with any inquiries or issues you may have.",
+    "required_words": [
+      "contact",
+      "customer",
+      "support"
+    ]
+  },
+  {
+    "response_type": "gift_wrapping",
+    "user_input": [
+      "gift wrapping",
+      "wrap my order",
+      "add gift packaging"
+    ],
+    "bot_response": "Yes, we offer gift wrapping services for an additional fee. During the checkout process, you can select the option to add gift wrapping to your order.",
+    "required_words": [
+      "gift",
+      "wrapping"
+    ]
+  },
+  {
+    "response_type": "price_matching",
+    "user_input": [
+      "price matching",
+      "match competitor price",
+      "find lower price"
+    ],
+    "bot_response": "We have a price matching policy where we will match the price of an identical product found on a competitor's website. Please contact our customer support team with the details of the product and the competitor's offer.",
+    "required_words": [
+      "price",
+      "matching"
+    ]
+  },
+  {
+    "response_type": "order_by_phone",
+    "user_input": [
+      "order by phone",
+      "phone orders",
+      "placing order over phone"
+    ],
+    "bot_response": "Unfortunately, we do not accept orders over the phone. Please place your order through our website for a smooth and secure transaction.",
+    "required_words": [
+      "order",
+      "phone"
+    ]
+  },
+  {
+    "response_type": "security_details",
+    "user_input": [
+      "security of details",
+      "personal information safety",
+      "payment security"
+    ],
+    "bot_response": "Yes, we take the security of your personal and payment details seriously. We use industry-standard encryption and follow strict security protocols to ensure your information is protected.",
+    "required_words": [
+      "security",
+      "details"
+    ]
+  },
+  {
+    "response_type": "price_adjustment",
+    "user_input": [
+      "price adjustment",
+      "product goes on sale",
+      "price drop refund"
+    ],
+    "bot_response": "If a product you purchased goes on sale within 7 days of your purchase, we offer a one-time price adjustment. Please contact our customer support team with your order details to request the adjustment.",
+    "required_words": [
+      "price",
+      "adjustment"
+    ]
+  },
+  {
+    "response_type": "loyalty_program",
+    "user_input": [
+      "loyalty program",
+      "earn points",
+      "rewards for purchases"
+    ],
+    "bot_response": "Yes, we have a loyalty program where you can earn points for every purchase. These points can be redeemed for discounts on future orders. Please visit our website to learn more and join the program.",
+    "required_words": [
+      "loyalty",
+      "program"
+    ]
+  },
+  {
+    "response_type": "order_without_account",
+    "user_input": [
+      "order without account",
+      "guest checkout",
+      "place order anonymously"
+    ],
+    "bot_response": "Yes, you can place an order as a guest without creating an account. However, creating an account offers benefits such as order tracking and easier future purchases.",
+    "required_words": [
+      "order",
+      "account"
+    ]
+  },
+  {
+    "response_type": "bulk_discounts",
+    "user_input": [
+      "bulk discounts",
+      "wholesale pricing",
+      "discount for large orders"
+    ],
+    "bot_response": "Yes, we offer bulk or wholesale discounts for certain products. Please contact our customer support team or visit our Wholesale page for more information and to discuss your specific requirements.",
+    "required_words": [
+      "bulk",
+      "discounts"
+    ]
+  },
+  {
+    "response_type": "change_or_cancel_item",
+    "user_input": [
+      "change or cancel item",
+      "modify order items",
+      "cancel part of order"
+    ],
+    "bot_response": "If you need to change or cancel an item in your order, please contact our customer support team as soon as possible. We will assist you with the necessary steps.",
+    "required_words": [
+      "change",
+      "cancel",
+      "item"
+    ]
+  },
+  {
+    "response_type": "product_review",
+    "user_input": [
+      "product review",
+      "leave feedback",
+      "rate product"
+    ],
+    "bot_response": "To leave a product review, navigate to the product page on our website and click on the 'Write a Review' button. You can share your feedback and rating based on your experience with the product.",
+    "required_words": [
+      "product",
+      "review"
+    ]
+  },
+  {
+    "response_type": "multiple_promo_codes",
+    "user_input": [
+      "multiple promo codes",
+      "use multiple discounts",
+      "stacking promo codes"
+    ],
+    "bot_response": "Usually, only one promo code can be applied per order. During the checkout process, enter the promo code in the designated field to apply the discount to your order.",
+    "required_words": [
+      "multiple",
+      "promo",
+      "codes"
+    ]
+  },
+  {
+    "response_type": "wrong_item_received",
+    "user_input": [
+      "wrong item received",
+      "incorrect product in order",
+      "received different item"
+    ],
+    "bot_response": "If you receive the wrong item in your order, please contact our customer support team immediately. We will arrange for the correct item to be shipped to you and assist with returning the wrong item.",
+    "required_words": [
+      "wrong",
+      "item"
+    ]
+  },
+  {
+    "response_type": "expedited_shipping",
+    "user_input": [
+      "expedited shipping",
+      "faster delivery option",
+      "rush shipping"
+    ],
+    "bot_response": "Yes, we offer expedited shipping options for faster delivery. During the checkout process, you can select the desired expedited shipping method.",
+    "required_words": [
+      "expedited",
+      "shipping"
+    ]
+  },
+  {
+    "response_type": "out_of_stock_order",
+    "user_input": [
+      "order out of stock item",
+      "buy unavailable product",
+      "product temporarily unavailable"
+    ],
+    "bot_response": "If a product is currently out of stock, you will usually see an option to sign up for product notifications. This way, you will be alerted when the product becomes available again.",
+    "required_words": [
+      "order",
+      "stock"
+    ]
+  },
+  {
+    "response_type": "email_newsletter",
+    "user_input": [
+      "email newsletter",
+      "subscribe for updates",
+      "newsletter content"
+    ],
+    "bot_response": "Our email newsletter provides updates on new product releases, exclusive offers, and helpful tips related to our products. You can subscribe to our newsletter on our website.",
+    "required_words": [
+      "email",
+      "newsletter"
+    ]
+  },
+  {
+    "response_type": "return_changed_mind",
+    "user_input": [
+      "return if changed mind",
+      "return for personal reasons",
+      "product return after purchase"
+    ],
+    "bot_response": "Yes, you can return a product if you changed your mind. Please ensure the product is in its original condition and packaging, and refer to our return policy for instructions.",
+    "required_words": [
+      "return",
+      "changed",
+      "mind"
+    ]
+  },
+  {
+    "response_type": "live_chat_support",
+    "user_input": [
+      "live chat support",
+      "chat with customer service",
+      "online chat help"
+    ],
+    "bot_response": "Yes, we offer live chat support on our website during our business hours. Look for the chat icon in the bottom right corner to initiate a chat with our customer support team.",
+    "required_words": [
+      "live",
+      "chat",
+      "support"
+    ]
+  },
+  {
+    "response_type": "order_as_gift",
+    "user_input": [
+      "order as gift",
+      "send product as present",
+      "buy item for someone"
+    ],
+    "bot_response": "Yes, you can order a product as a gift and have it shipped directly to the recipient. During the checkout process, you can enter the recipient's shipping address.",
+    "required_words": [
+      "order",
+      "gift"
+    ]
+  },
+  {
+    "response_type": "discount_code_not_working",
+    "user_input": [
+      "discount code not working",
+      "promo code not valid",
+      "code not applying"
+    ],
+    "bot_response": "If your discount code is not working, please double-check the terms and conditions associated with the code. If the issue persists, contact our customer support team for assistance.",
+    "required_words": [
+      "discount",
+      "code",
+      "not",
+      "working"
+    ]
+  },
+  {
+    "response_type": "return_final_sale_item",
+    "user_input": [
+      "return final sale item",
+      "refund for non-returnable product",
+      "cancel order with final sale"
+    ],
+    "bot_response": "Final sale items are usually non-returnable and non-refundable. Please review the product description or contact our customer support team to confirm the return eligibility for specific items.",
+    "required_words": [
+      "return",
+      "final",
+      "sale",
+      "item"
+    ]
+  },
+  {
+    "response_type": "installation_services",
+    "user_input": [
+      "installation services",
+      "product setup assistance",
+      "installation help"
+    ],
+    "bot_response": "Installation services are available for select products. Please check the product description or contact our customer support team for more information and to request installation services.",
+    "required_words": [
+      "installation",
+      "services"
+    ]
+  },
+  {
+    "response_type": "order_discontinued_product",
+    "user_input": [
+      "order discontinued product",
+      "buy no longer available item",
+      "purchase discontinued item"
+    ],
+    "bot_response": "Discontinued products are no longer available for purchase. We recommend exploring alternative products on our website.",
+    "required_words": [
+      "order",
+      "discontinued",
+      "product"
+    ]
+  },
+  {
+    "response_type": "return_without_receipt",
+    "user_input": [
+      "return without receipt",
+      "no proof of purchase return",
+      "return with no receipt"
+    ],
+    "bot_response": "A receipt or proof of purchase is usually required for returns. Please refer to our return policy or contact our customer support team for assistance.",
+    "required_words": [
+      "return",
+      "receipt"
+    ]
+  },
+  {
+    "response_type": "order_to_different_country",
+    "user_input": [
+      "order to different country",
+      "international delivery",
+      "ship to another country"
+    ],
+    "bot_response": "Yes, we offer international shipping to select countries. Please review the available shipping destinations during checkout or contact our customer support for assistance.",
+    "required_words": [
+      "order",
+      "different",
+      "country"
+    ]
+  },
+  {
+    "response_type": "add_gift_message",
+    "user_input": [
+      "add gift message",
+      "include personalized note",
+      "attach gift card"
+    ],
+    "bot_response": "Yes, you can add a gift message during the checkout process. There is usually a section where you can enter your personalized message.",
+    "required_words": [
+      "add",
+      "gift",
+      "message"
+    ]
+  },
+  {
+    "response_type": "product_demo_request",
+    "user_input": [
+      "product demonstration request",
+      "try product before buying",
+      "demo before purchase"
+    ],
+    "bot_response": "We do not currently offer product demonstrations before purchase. However, you can find detailed product descriptions, specify'specify's, and customer reviews on our website.",
+    "required_words": [
+      "product",
+      "demonstration",
+      "request"
+    ]
+  },
+  {
+    "response_type": "order_coming_soon_product",
+    "user_input": [
+      "order 'coming soon' product",
+      "pre-order upcoming item",
+      "buy product launching soon"
+    ],
+    "bot_response": "Products listed as 'coming soon' are not available for immediate purchase. Please sign up for notifications to be informed when the product becomes available.",
+    "required_words": [
+      "order",
+      "coming",
+      "soon",
+      "product"
+    ]
+  },
+  {
+    "response_type": "request_invoice",
+    "user_input": [
+      "request invoice",
+      "get order receipt",
+      "invoice copy"
+    ],
+    "bot_response": "Yes, an invoice is usually included with your order. If you require a separate invoice, please contact our customer support team with your order details.",
+    "required_words": [
+      "request",
+      "invoice"
+    ]
+  },
+  {
+    "response_type": "order_limited_edition_product",
+    "user_input": [
+      "order 'limited edition' product",
+      "buy restricted availability item",
+      "purchase special edition item"
+    ],
+    "bot_response": "'Limited edition' products may have restricted availability. We recommend placing an order as soon as possible to secure your item.",
+    "required_words": [
+      "order",
+      "limited",
+      "edition",
+      "product"
+    ]
+  },
+  {
+    "response_type": "return_no_original_packaging",
+    "user_input": [
+      "return without original packaging",
+      "product return no box",
+      "return item with no packaging"
+    ],
+    "bot_response": "While returning a product in its original packaging is preferred, you can still initiate a return without it. Contact our customer support team for guidance in such cases.",
+    "required_words": [
+      "return",
+      "original",
+      "packaging"
+    ]
+  },
+  {
+    "response_type": "request_reserved_product",
+    "user_input": [
+      "request reserved product",
+      "hold out-of-stock item for me",
+      "reserve product for future purchase"
+    ],
+    "bot_response": "We do not offer reservations for out-of-stock products. However, you can sign up for product notifications to be alerted when it becomes available again.",
+    "required_words": [
+      "request",
+      "reserved",
+      "product"
+    ]
+  },
+  {
+    "response_type": "order_preorder_with_instock",
+    "user_input": [
+      "order 'pre-order' with in-stock items",
+      "buy upcoming product with available items",
+      "place mixed status order"
+    ],
+    "bot_response": "Yes, you can place an order with a mix of pre-order and in-stock items. However, please note that the entire order will be shipped once all items are available.",
+    "required_words": [
+      "order",
+      "pre-order",
+      "instock"
+    ]
+  },
+  {
+    "response_type": "return_damaged_during_shipping",
+    "user_input": [
+      "return damaged during shipping",
+      "product damaged in transit return",
+      "return shipping-damaged item"
+    ],
+    "bot_response": "If your product was damaged during shipping, please contact our customer support team immediately. We will guide you through the return and replacement process.",
+    "required_words": [
+      "return",
+      "damaged",
+      "shipping"
+    ]
+  },
+  {
+    "response_type": "request_product_restock",
+    "user_input": [
+      "request out of stock product restock",
+      "ask for product to be restocked",
+      "product restocking request"
+    ],
+    "bot_response": "We strive to restock popular products whenever possible. Please sign up for product notifications to be informed when the item becomes available again.",
+    "required_words": [
+      "request",
+      "product",
+      "restock"
+    ]
+  },
+  {
+    "response_type": "order_backordered_product",
+    "user_input": [
+      "order 'backordered' product",
+      "buy temporarily out of stock item",
+      "purchase item on backorder"
+    ],
+    "bot_response": "Products listed as 'backordered' are temporarily out of stock but can still be ordered. Your order will be fulfilled once the product is restocked.",
+    "required_words": [
+      "order",
+      "backordered",
+      "product"
+    ]
+  },
+  {
+    "response_type": "return_sale_discount_product",
+    "user_input": [
+      "return sale or discount product",
+      "refund for discounted purchase",
+      "return product bought on sale"
+    ],
+    "bot_response": "Yes, you can return a product purchased during a sale or with a discount. The refund will be processed based on the amount paid after the discount.",
+    "required_words": [
+      "return",
+      "sale",
+      "discount",
+      "product"
+    ]
+  },
+  {
+    "response_type": "request_repair_or_replacement",
+    "user_input": [
+      "request product repair or replacement",
+      "damaged product assistance",
+      "faulty item repair or replacement"
+    ],
+    "bot_response": "If you receive a damaged product, please contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+    "required_words": [
+      "request",
+      "repair",
+      "replacement"
+    ]
+  },
+  {
+    "response_type": "order_out_of_stock_with_preorder",
+    "user_input": [
+      "order 'out of stock' with pre-order available",
+      "pre-order item currently out of stock",
+      "buy unavailable item with pre-order"
+    ],
+    "bot_response": "If a product is available for pre-order, you can place an order to secure your item. The product will be shipped once it becomes available.",
+    "required_words": [
+      "order",
+      "out of stock",
+      "pre-order"
+    ]
+  },
+  {
+    "response_type": "return_gift_purchase",
+    "user_input": [
+      "return product purchased as gift",
+      "refund for gifted item",
+      "return gift order"
+    ],
+    "bot_response": "Yes, you can return a product purchased as a gift. However, refunds will typically be issued to the original payment method used for the purchase.",
+    "required_words": [
+      "return",
+      "gift",
+      "purchase"
+    ]
+  },
+  {
+    "response_type": "request_discontinued_product",
+    "user_input": [
+      "request 'discontinued' product",
+      "ask for unavailable item",
+      "product request for discontinued item"
+    ],
+    "bot_response": "Unfortunately, if a product is listed as 'discontinued,' it is no longer available for purchase. We recommend exploring alternative products on our website.",
+    "required_words": [
+      "request",
+      "discontinued",
+      "product"
+    ]
+  },
+  {
+    "response_type": "order_sold_out_product",
+    "user_input": [
+      "order 'sold out' product",
+      "buy unavailable item",
+      "purchase item marked as sold out"
+    ],
+    "bot_response": "If a product is listed as 'sold out,' it is currently unavailable for purchase. Please check back later or sign up for notifications when it becomes available again.",
+    "required_words": [
+      "order",
+      "sold out",
+      "product"
+    ]
+  },
+  {
+    "response_type": "return_gift_card_purchase",
+    "user_input": [
+      "return product bought with gift card",
+      "refund for gift card purchase",
+      "return item using gift card"
+    ],
+    "bot_response": "Yes, you can return a product purchased with a gift card. The refund will be issued in the form of store credit or a new gift card.",
+    "required_words": [
+      "return",
+      "gift card",
+      "purchase"
+    ]
+  },
+  {
+    "response_type": "request_unavailable_size_product",
+    "user_input": [
+      "request product in unavailable size",
+      "ask for item in my size",
+      "product request for size not available"
+    ],
+    "bot_response": "If a product is not available in your size, it may be temporarily out of stock. Please check back later or sign up for size notifications.",
+    "required_words": [
+      "request",
+      "unavailable",
+      "size",
+      "product"
+    ]
+  },
+  {
+    "response_type": "order_coming_soon_without_preorder",
+    "user_input": [
+      "order 'coming soon' without pre-order",
+      "buy item not available for pre-order",
+      "place order for upcoming product"
+    ],
+    "bot_response": "If a product is listed as 'coming soon' but not available for pre-order, you will need to wait until it is officially released and becomes available for purchase.",
+    "required_words": [
+      "order",
+      "coming soon",
+      "pre-order"
+    ]
+  },
+  {
+    "response_type": "order_on_hold_product",
+    "user_input": [
+      "order 'on hold' product",
+      "buy temporarily unavailable item",
+      "purchase item put on hold"
+    ],
+    "bot_response": "If a product is listed as 'on hold,' it is temporarily unavailable for purchase. Please check back later or sign up for notifications when it becomes available.",
+    "required_words": [
+      "order",
+      "on hold",
+      "product"
+    ]
+  },
+  {
+    "response_type": "return_no_original_receipt",
+    "user_input": [
+      "return without original receipt",
+      "product return without receipt",
+      "return item with no receipt"
+    ],
+    "bot_response": "While a receipt is preferred for returns, we may be able to assist you without it. Please contact our customer support team for further guidance.",
+    "required_words": [
+      "return",
+      "original",
+      "receipt"
+    ]
+  },
+  {
+    "response_type": "request_restock_limited_edition_product",
+    "user_input": [
+      "request restock for 'limited edition' product",
+      "ask for limited item to be restocked",
+      "restock rare item"
+    ],
+    "bot_response": "Once a limited edition product is sold out, it may not be restocked. Limited edition items are available for a limited time only, so we recommend purchasing them while they are available.",
+    "required_words": [
+      "request",
+      "restock",
+      "limited edition",
+      "product"
+    ]
+  },
+  {
+    "response_type": "order_discontinued_visible_product",
+    "user_input": [
+      "order 'discontinued' visible product",
+      "buy product marked as discontinued",
+      "purchase unavailable item still listed"
+    ],
+    "bot_response": "If a product is listed as 'discontinued' but still visible on the website, it may be an error. Please contact our customer support team for clarification.",
+    "required_words": [
+      "order",
+      "discontinued",
+      "visible",
+      "product"
+    ]
+  },
+  {
+    "response_type": "return_clearance_final_sale_product",
+    "user_input": [
+      "return clearance or final sale product",
+      "refund for non-returnable clearance item",
+      "return item bought on final sale"
+    ],
+    "bot_response": "Clearance or final sale items are typically non-returnable and non-refundable. Please review the product description or contact our customer support team for more information.",
+    "required_words": [
+      "return",
+      "clearance",
+      "final sale",
+      "product"
+    ]
+  },
+  {
+    "response_type": "order_coming_soon_with_preorder",
+    "user_input": [
+      "order 'coming soon' with pre-order available",
+      "buy item not available for pre-order",
+      "place order for upcoming product"
+    ],
+    "bot_response": "If a product is listed as 'coming soon' and available for pre-order, you can place an order to secure your item before it becomes available.",
+    "required_words": [
+      "order",
+      "coming soon",
+      "pre-order"
+    ]
+  },
+  {
+    "response_type": "return_product_with_discount_code",
+    "user_input": [
+      "return product with discount code",
+      "refund for item with promo code",
+      "return item bought with discount"
+    ],
+    "bot_response": "Yes, you can return a product purchased with a discount code. The refund will be processed based on the amount paid after the discount.",
+    "required_words": [
+      "return",
+      "discount code",
+      "product"
+    ]
+  },
+  {
+    "response_type": "request_custom_or_personalized_product",
+    "user_input": [
+      "request custom or personalized product",
+      "ask for customized item",
+      "product customization request"
+    ],
+    "bot_response": "We do not currently offer custom orders or personalized products. Please explore the available products on our website.",
+    "required_words": [
+      "request",
+      "custom",
+      "personalized",
+      "product"
+    ]
+  },
+  {
+    "response_type": "order_temporarily_unavailable_product",
+    "user_input": [
+      "order 'temporarily unavailable' product",
+      "buy out of stock item",
+      "purchase item temporarily unavailable"
+    ],
+    "bot_response": "If a product is listed as 'temporarily unavailable,' it is out of stock but may be restocked in the future. Please check back later or sign up for notifications.",
+    "required_words": [
+      "order",
+      "temporarily unavailable",
+      "product"
+    ]
+  },
+  {
+    "response_type": "return_product_damaged_improper_use",
+    "user_input": [
+      "return product damaged due to improper use",
+      "refund for item misused",
+      "return damaged product due to improper handling"
+    ],
+    "bot_response": "Our return policy generally covers products that are defective or damaged upon arrival. Damage due to improper use may not be eligible for a return. Please contact our customer support team for assistance.",
+    "required_words": [
+      "return",
+      "product",
+      "damaged",
+      "improper use"
+    ]
+  },
+  {
+    "response_type": "request_coming_soon_no_preorder",
+    "user_input": [
+      "request 'coming soon' product without pre-order",
+      "ask for soon-to-launch item",
+      "product request for upcoming release"
+    ],
+    "bot_response": "If a product is listed as 'coming soon' but not available for pre-order, you will need to wait until it is officially released and becomes available for purchase.",
+    "required_words": [
+      "request",
+      "coming soon",
+      "pre-order"
+    ]
+  },
+  {
+    "response_type": "request_product_not_listed",
+    "user_input": [
+      "request product not listed on website",
+      "ask for unavailable item",
+      "product inquiry not on site"
+    ],
+    "bot_response": "If a product is not listed on our website, it may not be available for purchase. We recommend exploring the available products or contacting our customer support team for further assistance.",
+    "required_words": [
+      "request",
+      "product",
+      "not listed"
+    ]
+  },
+  {
+    "response_type": "order_out_of_stock_backorder",
+    "user_input": [
+      "order 'out of stock' product for backorder",
+      "buy item available for backorder",
+      "place order for temporarily unavailable product"
+    ],
+    "bot_response": "If a product is listed as 'out of stock' but available for backorder, you can place an order to secure your item. The product will be shipped once it becomes available.",
+    "required_words": [
+      "order",
+      "out of stock",
+      "backorder",
+      "product"
+    ]
+  },
+  {
+    "response_type": "return_bundle_set_product",
+    "user_input": [
+      "return product from bundle or set",
+      "refund for item in package",
+      "return part of bundle purchase"
+    ],
+    "bot_response": "If a product was purchased as part of a bundle or set, the return policy may vary. Please refer to the specific terms and conditions or contact our customer support team for further guidance.",
+    "required_words": [
+      "return",
+      "bundle",
+      "set",
+      "product"
+    ]
+  },
+  {
+    "response_type": "request_restock_out_of_stock_product",
+    "user_input": [
+      "request restock for 'out of stock' product",
+      "ask for unavailable item to be restocked",
+      "restock item listed as unavailable"
+    ],
+    "bot_response": "We aim to restock popular products whenever possible. Please sign up for product notifications to be alerted when the item becomes available again.",
+    "required_words": [
+      "request",
+      "restock",
+      "out of stock",
+      "product"
+    ]
+  },
+  {
+    "response_type": "order_coming_soon_with_preorder",
+    "user_input": [
+      "order 'coming soon' with pre-order available",
+      "buy item not available for pre-order",
+      "place order for upcoming product"
+    ],
+    "bot_response": "If a product is listed as 'coming soon' and available for pre-order, you can place an order to secure your item before it becomes available.",
+    "required_words": [
+      "order",
+      "coming soon",
+      "pre-order"
+    ]
+  },
+  {
+    "response_type": "return_product_damaged_mishandling_shipping",
+    "user_input": [
+      "return product damaged during shipping",
+      "refund for item mishandled in transit",
+      "return damaged product from shipping"
+    ],
+    "bot_response": "If your product was damaged due to mishandling during shipping, please contact our customer support team immediately. We will assist you with the necessary steps for return and replacement.",
+    "required_words": [
+      "return",
+      "product",
+      "damaged",
+      "mishandling",
+      "shipping"
+    ]
+  },
+  {
+    "response_type": "request_out_of_stock_product_reserved",
+    "user_input": [
+      "request reservation for 'out of stock' product",
+      "ask to hold unavailable item",
+      "reserve item listed as unavailable"
+    ],
+    "bot_response": "We do not offer reservations for out-of-stock products. However, you can sign up for product notifications to be alerted when the item becomes available again.",
+    "required_words": [
+      "request",
+      "out of stock",
+      "product",
+      "reserved"
+    ]
+  },
+  {
+    "response_type": "order_preorder_backorder",
+    "user_input": [
+      "order 'pre-order' product for backorder",
+      "buy item listed for both pre-order and backorder",
+      "place order for upcoming product on backorder"
+    ],
+    "bot_response": "If a product is listed as 'pre-order' and available for backorder, you can place an order to secure your item. The product will be shipped once it becomes available.",
+    "required_words": [
+      "order",
+      "pre-order",
+      "backorder",
+      "product"
+    ]
+  },
+  {
+    "response_type": "return_product_purchased_store_credit",
+    "user_input": [
+      "return product bought with store credit",
+      "refund for item paid with store credit",
+      "return item purchased using store credit"
+    ],
+    "bot_response": "Yes, you can return a product purchased with store credit. The refund will be issued in the form of store credit, which you can use for future purchases.",
+    "required_words": [
+      "return",
+      "product",
+      "store credit"
+    ]
+  },
+  {
+    "response_type": "request_restock_out_of_stock_product",
+    "user_input": [
+      "request restock for 'out of stock' product",
+      "ask for unavailable item to be restocked",
+      "restock item listed as unavailable"
+    ],
+    "bot_response": "We strive to restock popular products whenever possible. Please sign up for product notifications to be informed when the item becomes available again.",
+    "required_words": [
+      "request",
+      "restock",
+      "out of stock",
+      "product"
+    ]
+  },
+  {
+    "response_type": "order_sold_out_with_preorder",
+    "user_input": [
+      "order 'sold out' product for pre-order",
+      "buy item available for pre-order after selling out",
+      "place order for unavailable product"
+    ],
+    "bot_response": "If a product is listed as 'sold out' but available for pre-order, you can place an order to secure your item. The product will be shipped once it becomes available.",
+    "required_words": [
+      "order",
+      "sold out",
+      "pre-order",
+      "product"
+    ]
+  },
+  {
+    "response_type": "return_product_promotional_gift_card",
+    "user_input": [
+      "return product purchased with promotional gift card",
+      "refund for item bought using gift card",
+      "return item with promotional gift card payment"
+    ],
+    "bot_response": "Yes, you can return a product purchased with a promotional gift card. The refund will be issued in the form of store credit or a new gift card.",
+    "required_words": [
+      "return",
+      "product",
+      "promotional gift card"
+    ]
+  },
+  {
+    "response_type": "request_product_not_available_color",
+    "user_input": [
+      "request product not available in preferred color",
+      "ask for item in specific color not in stock",
+      "inquire about unavailable color option"
+    ],
+    "bot_response": "If a product is not available in your preferred color, it may be temporarily out of stock. Please check back later or sign up for color notifications.",
+    "required_words": [
+      "request",
+      "product",
+      "not available",
+      "color"
+    ]
+  },
+  {
+    "response_type": "order_coming_soon_not_preorder",
+    "user_input": [
+      "order 'coming soon' without pre-order",
+      "buy item not available for pre-order but upcoming",
+      "place order for upcoming product without pre-order"
+    ],
+    "bot_response": "If a product is listed as 'coming soon' but not available for pre-order, you will need to wait until it is officially released and becomes available for purchase.",
+    "required_words": [
+      "order",
+      "coming soon",
+      "pre-order"
+    ]
+  },
+  {
+    "response_type": "return_product_promotional_event",
+    "user_input": [
+      "return product purchased during promotion",
+      "refund for item bought during sale event",
+      "return item with promotional discount"
+    ],
+    "bot_response": "Yes, you can return a product purchased during a promotional event. The refund will be processed based on the amount paid after any applicable discounts.",
+    "required_words": [
+      "return",
+      "product",
+      "promotional event"
+    ]
+  },
+  {
+    "response_type": "USB question",
+    "user_input": [
+      "what",
+      "is",
+      "the",
+      "usb",
+      "drive",
+      ""
+    ],
+    "bot_response": "A USB drive, also known as a flash drive or thumb drive, is a portable storage device that allows you to store and transfer files between computers.",
+    "required_words": [
+      "what",
+      "is",
+      "usb"
+    ]
+  },
+  {
+    "response_type": "USB question",
+    "user_input": [
+      "what",
+      "storage",
+      "capacities",
+      "are",
+      "available",
+      "usb",
+      "drive"
+    ],
+    "bot_response": "A USB drives come in various storage capacities, ranging from a few gigabytes (GB) to several terabytes (TB), depending on the model.",
+    "required_words": [
+      "storage",
+      "capacity"
+    ]
+  },
+  {
+    "response_type": "USB question",
+    "user_input": [
+      "what",
+      "different",
+      "types",
+      "devices",
+      "usb",
+      "drive"
+    ],
+    "bot_response": "Yes, USB drives are compatible with a wide range of devices, including computers, laptops, gaming consoles, and some smart TVs.",
+    "required_words": [
+      "different",
+      "device"
+    ]
+  },
+  {
+    "response_type": "USB question",
+    "user_input": [
+      "How",
+      "format",
+      "usb",
+      "drive"
+    ],
+    "bot_response": "To format a USB drive, plug it into your computer, open the File Explorer (Windows) or Finder (macOS), right-click on the USB drive, and choose the 'Format' option. Be aware that formatting will erase all data on the drive.",
+    "required_words": [
+      "format",
+      "usb"
+    ]
+  },
+  {
+    "response_type": "USB question",
+    "user_input": [
+      "what",
+      "usb",
+      "3.0",
+      "3.1"
+    ],
+    "bot_response": "USB 3.0 and USB 3.1 are faster versions of the USB standard, offering faster data transfer speeds compared to USB 2.0. USB 3.1 is generally faster than USB 3.0.",
+    "required_words": [
+      "usb",
+      "3.0",
+      "usb",
+      "3.1"
+    ]
+  },
+  {
+    "response_type": "USB question",
+    "user_input": [
+      "how",
+      "safety",
+      "eject",
+      "usb",
+      "computer",
+      "from"
+    ],
+    "bot_response": "On Windows, right-click the USB drive icon in the taskbar and select 'Eject.' On macOS, drag the USB drive icon to the Trash to safely eject it before physically removing it.",
+    "required_words": [
+      "safety",
+      "eject"
+    ]
+  },
+  {
+    "response_type": "USB question",
+    "user_input": [
+      "password",
+      "protect",
+      "usb",
+      "drive"
+    ],
+    "bot_response": "Yes, you can use encryption software to password-protect the contents of your USB drive, ensuring your data remains secure.",
+    "required_words": [
+      "password",
+      "protect",
+      "usb"
+    ]
+  },
+  {
+    "response_type": "USB question",
+    "user_input": [
+      "difference",
+      "usb",
+      "a",
+      "c",
+      "connector"
+    ],
+    "bot_response": "USB-A is the traditional rectangular USB connector, while USB-C is a reversible, compact connector that offers faster data transfer speeds and can be plugged in either way.",
+    "required_words": [
+      "difference",
+      "usb",
+      "a",
+      "connector"
+    ]
+  },
+  {
+    "response_type": "USB question",
+    "user_input": [
+      "drive",
+      "usb",
+      "install",
+      "os",
+      "operating",
+      "system"
+    ],
+    "bot_response": "Yes, you can create a bootable USB drive with an operating system installer, allowing you to install or repair an operating system on a computer.",
+    "required_words": [
+      "install",
+      "system"
+    ]
+  },
+  {
+    "response_type": "USB question",
+    "user_input": [
+      "can",
+      "connect",
+      "usb",
+      "to",
+      "my",
+      "smartphone"
+    ],
+    "bot_response": "Many smartphones support USB OTG (On-The-Go), allowing you to connect USB devices like flash drives or keyboards using an adapter. Check your smartphone's compatibility.",
+    "required_words": [
+      "connect",
+      "smartphone"
+    ]
+  },
+  {
+    "response_type": "USB question",
+    "user_input": [
+      "can",
+      "transfer",
+      "files",
+      "between",
+      "mac",
+      "pc",
+      "usb"
+    ],
+    "bot_response": "Yes, you can transfer files between Mac and PC using a USB drive. Just make sure to format the drive in a compatible file system, such as exFAT.",
+    "required_words": [
+      "transfer",
+      "between",
+      "mac",
+      "pc"
+    ]
+  },
+  {
+    "response_type": "USB question",
+    "user_input": [
+      "usb",
+      "i",
+      "cable",
+      "reversible"
+    ],
+    "bot_response": "Yes, USB-C cables are reversible, which means you can plug them in either way without worrying about the orientation.",
+    "required_words": [
+      "usb",
+      "i",
+      "reversible"
+    ]
+  },
+  {
+    "response_type": "USB question",
+    "user_input": [
+      "can",
+      "i",
+      "charge",
+      "my",
+      "device",
+      "using",
+      "usb"
+    ],
+    "bot_response": "Yes, many USB hubs support charging, but make sure the hub provides enough power for your devices. Some devices may charge slower when connected to a hub.",
+    "required_words": [
+      "charge",
+      "using",
+      "usb"
+    ]
+  },
+  {
+    "response_type": "USB question",
+    "user_input": [
+      "usb",
+      "drive",
+      "resistant",
+      "extreme",
+      "temperature"
+    ],
+    "bot_response": "Yes, some USB drives are designed to withstand extreme temperatures, making them suitable for industrial or outdoor use. Check the product specify'specify's for details.",
+    "required_words": [
+      "resistant",
+      "temperature"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "create",
+      "account"
+    ],
+    "bot_response": "To create an account, click on the 'Sign Up' button on the top right corner of our website and follow the instructions to complete the registration process.",
+    "required_words": [
+      "create",
+      "account"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "payment",
+      "methods",
+      "accept"
+    ],
+    "bot_response": "We accept major credit cards, debit cards, and PayPal as payment methods for online orders.",
+    "required_words": [
+      "payment",
+      "methods",
+      "accept"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "track",
+      "order"
+    ],
+    "bot_response": "You can track your order by logging into your account and navigating to the 'Order History' section. There, you will find the tracking information for your shipment.",
+    "required_words": [
+      "track",
+      "order"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "policy"
+    ],
+    "bot_response": "Our return policy allows you to return products within 30 days of purchase for a full refund, provided they are in their original condition and packaging. Please refer to our Returns page for detailed instructions.",
+    "required_words": [
+      "return",
+      "policy"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "cancel",
+      "order"
+    ],
+    "bot_response": "You can cancel your order if it has not been shipped yet. Please contact our customer support team with your order details, and we will assist you with the cancellation process.",
+    "required_words": [
+      "cancel",
+      "order"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "shipping",
+      "take"
+    ],
+    "bot_response": "Shipping times vary depending on the destination and the shipping method chosen. Standard shipping usually takes 3-5 business days, while express shipping can take 1-2 business days.",
+    "required_words": [
+      "shipping",
+      "take"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "international",
+      "shipping"
+    ],
+    "bot_response": "Yes, we offer international shipping to select countries. The availability and shipping costs will be calculated during the checkout process based on your location.",
+    "required_words": [
+      "international",
+      "shipping"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "package",
+      "lost",
+      "damaged"
+    ],
+    "bot_response": "If your package is lost or damaged during transit, please contact our customer support team immediately. We will initiate an investigation and take the necessary steps to resolve the issue.",
+    "required_words": [
+      "package",
+      "lost",
+      "damaged"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "change",
+      "shipping",
+      "address",
+      "order"
+    ],
+    "bot_response": "If you need to change your shipping address, please contact our customer support team as soon as possible. We will do our best to update the address if the order has not been shipped yet.",
+    "required_words": [
+      "change",
+      "shipping",
+      "address",
+      "order"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "contact",
+      "customer",
+      "support"
+    ],
+    "bot_response": "You can contact our customer support team by phone at [phone number] or by email at [email address]. Our team is available [working hours] to assist you with any inquiries or issues you may have.",
+    "required_words": [
+      "contact",
+      "customer",
+      "support"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "gift",
+      "wrapping",
+      "services"
+    ],
+    "bot_response": "Yes, we offer gift wrapping services for an additional fee. During the checkout process, you can select the option to add gift wrapping to your order.",
+    "required_words": [
+      "gift",
+      "wrapping",
+      "services"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "price",
+      "matching",
+      "policy"
+    ],
+    "bot_response": "We have a price matching policy where we will match the price of an identical product found on a competitor's website. Please contact our customer support team with the details of the product and the competitor's offer.",
+    "required_words": [
+      "price",
+      "matching",
+      "policy"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "phone"
+    ],
+    "bot_response": "Unfortunately, we do not accept orders over the phone. Please place your order through our website for a smooth and secure transaction.",
+    "required_words": [
+      "order",
+      "phone"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "personal",
+      "payment",
+      "details",
+      "secure"
+    ],
+    "bot_response": "Yes, we take the security of your personal and payment details seriously. We use industry-standard encryption and follow strict security protocols to ensure your information is protected.",
+    "required_words": [
+      "personal",
+      "payment",
+      "details",
+      "secure"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "price",
+      "adjustment",
+      "policy"
+    ],
+    "bot_response": "If a product you purchased goes on sale within 7 days of your purchase, we offer a one-time price adjustment. Please contact our customer support team with your order details to request the adjustment.",
+    "required_words": [
+      "price",
+      "adjustment",
+      "policy"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "loyalty",
+      "program"
+    ],
+    "bot_response": "Yes, we have a loyalty program where you can earn points for every purchase. These points can be redeemed for discounts on future orders. Please visit our website to learn more and join the program.",
+    "required_words": [
+      "loyalty",
+      "program"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "without",
+      "creating",
+      "account"
+    ],
+    "bot_response": "Yes, you can place an order as a guest without creating an account. However, creating an account offers benefits such as order tracking and easier future purchases.",
+    "required_words": [
+      "order",
+      "without",
+      "creating",
+      "account"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "bulk",
+      "wholesale",
+      "discounts"
+    ],
+    "bot_response": "Yes, we offer bulk or wholesale discounts for certain products. Please contact our customer support team or visit our Wholesale page for more information and to discuss your specific requirements.",
+    "required_words": [
+      "bulk",
+      "wholesale",
+      "discounts"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "change",
+      "cancel",
+      "item",
+      "order"
+    ],
+    "bot_response": "If you need to change or cancel an item in your order, please contact our customer support team as soon as possible. We will assist you with the necessary steps.",
+    "required_words": [
+      "change",
+      "cancel",
+      "item",
+      "order"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "leave",
+      "product",
+      "review"
+    ],
+    "bot_response": "To leave a product review, navigate to the product page on our website and click on the 'Write a Review' button. You can share your feedback and rating based on your experience with the product.",
+    "required_words": [
+      "leave",
+      "product",
+      "review"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "multiple",
+      "promo",
+      "codes",
+      "single",
+      "order"
+    ],
+    "bot_response": "Usually, only one promo code can be applied per order. During the checkout process, enter the promo code in the designated field to apply the discount to your order.",
+    "required_words": [
+      "multiple",
+      "promo",
+      "codes",
+      "single",
+      "order"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "receive",
+      "wrong",
+      "item"
+    ],
+    "bot_response": "If you receive the wrong item in your order, please contact our customer support team immediately. We will arrange for the correct item to be shipped to you and assist with returning the wrong item.",
+    "required_words": [
+      "receive",
+      "wrong",
+      "item"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "expedited",
+      "shipping"
+    ],
+    "bot_response": "Yes, we offer expedited shipping options for faster delivery. During the checkout process, you can select the desired expedited shipping method.",
+    "required_words": [
+      "expedited",
+      "shipping"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "out",
+      "stock"
+    ],
+    "bot_response": "If a product is currently out of stock, you will usually see an option to sign up for product notifications. This way, you will be alerted when the product becomes available again.",
+    "required_words": [
+      "order",
+      "product",
+      "out",
+      "stock"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "email",
+      "newsletter"
+    ],
+    "bot_response": "Our email newsletter provides updates on new product releases, exclusive offers, and helpful tips related to our products. You can subscribe to our newsletter on our website.",
+    "required_words": [
+      "email",
+      "newsletter"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "changed",
+      "mind"
+    ],
+    "bot_response": "Yes, you can return a product if you changed your mind. Please ensure the product is in its original condition and packaging, and refer to our return policy for instructions.",
+    "required_words": [
+      "return",
+      "product",
+      "changed",
+      "mind"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "live",
+      "chat",
+      "support"
+    ],
+    "bot_response": "Yes, we offer live chat support on our website during our business hours. Look for the chat icon in the bottom right corner to initiate a chat with our customer support team.",
+    "required_words": [
+      "live",
+      "chat",
+      "support"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "gift"
+    ],
+    "bot_response": "Yes, you can order a product as a gift and have it shipped directly to the recipient. During the checkout process, you can enter the recipient's shipping address.",
+    "required_words": [
+      "order",
+      "product",
+      "gift"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "discount",
+      "code",
+      "not",
+      "working"
+    ],
+    "bot_response": "If your discount code is not working, please double-check the terms and conditions associated with the code. If the issue persists, contact our customer support team for assistance.",
+    "required_words": [
+      "discount",
+      "code",
+      "not",
+      "working"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "final",
+      "sale",
+      "item"
+    ],
+    "bot_response": "Final sale items are usually non-returnable and non-refundable. Please review the product description or contact our customer support team to confirm the return eligibility for specific items.",
+    "required_words": [
+      "return",
+      "product",
+      "final",
+      "sale",
+      "item"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "installation",
+      "services",
+      "products"
+    ],
+    "bot_response": "Installation services are available for select products. Please check the product description or contact our customer support team for more information and to request installation services.",
+    "required_words": [
+      "installation",
+      "services",
+      "products"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "discontinued"
+    ],
+    "bot_response": "Discontinued products are no longer available for purchase. We recommend exploring alternative products on our website.",
+    "required_words": [
+      "order",
+      "product",
+      "discontinued"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "without",
+      "receipt"
+    ],
+    "bot_response": "A receipt or proof of purchase is usually required for returns. Please refer to our return policy or contact our customer support team for assistance.",
+    "required_words": [
+      "return",
+      "product",
+      "without",
+      "receipt"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "delivery",
+      "different",
+      "country"
+    ],
+    "bot_response": "Yes, we offer international shipping to select countries. Please review the available shipping destinations during checkout or contact our customer support for assistance.",
+    "required_words": [
+      "order",
+      "product",
+      "delivery",
+      "different",
+      "country"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "gift",
+      "message",
+      "order"
+    ],
+    "bot_response": "Yes, you can add a gift message during the checkout process. There is usually a section where you can enter your personalized message.",
+    "required_words": [
+      "gift",
+      "message",
+      "order"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "product",
+      "demonstration",
+      "making",
+      "purchase"
+    ],
+    "bot_response": "We do not currently offer product demonstrations before purchase. However, you can find detailed product descriptions, specify'specify's, and customer reviews on our website.",
+    "required_words": [
+      "request",
+      "product",
+      "demonstration",
+      "making",
+      "purchase"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "listed",
+      "coming",
+      "soon"
+    ],
+    "bot_response": "Products listed as 'coming soon' are not available for immediate purchase. Please sign up for notifications to be informed when the product becomes available.",
+    "required_words": [
+      "order",
+      "product",
+      "listed",
+      "coming",
+      "soon"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "invoice",
+      "order"
+    ],
+    "bot_response": "Yes, an invoice is usually included with your order. If you require a separate invoice, please contact our customer support team with your order details.",
+    "required_words": [
+      "request",
+      "invoice",
+      "order"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "labeled",
+      "limited",
+      "edition"
+    ],
+    "bot_response": "'Limited edition' products may have restricted availability. We recommend placing an order as soon as possible to secure your item.",
+    "required_words": [
+      "order",
+      "product",
+      "labeled",
+      "limited",
+      "edition"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "no",
+      "longer",
+      "original",
+      "packaging"
+    ],
+    "bot_response": "While returning a product in its original packaging is preferred, you can still initiate a return without it. Contact our customer support team for guidance in such cases.",
+    "required_words": [
+      "return",
+      "product",
+      "no",
+      "longer",
+      "original",
+      "packaging"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "product",
+      "currently",
+      "out",
+      "stock",
+      "reserved"
+    ],
+    "bot_response": "We do not offer reservations for out-of-stock products. However, you can sign up for product notifications to be alerted when it becomes available again.",
+    "required_words": [
+      "request",
+      "product",
+      "currently",
+      "out",
+      "stock",
+      "reserved"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "listed",
+      "pre-order",
+      "in-stock",
+      "items"
+    ],
+    "bot_response": "Yes, you can place an order with a mix of pre-order and in-stock items. However, please note that the entire order will be shipped once all items are available.",
+    "required_words": [
+      "order",
+      "product",
+      "listed",
+      "pre-order",
+      "in-stock",
+      "items"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "damaged",
+      "shipping"
+    ],
+    "bot_response": "If your product was damaged during shipping, please contact our customer support team immediately. We will guide you through the return and replacement process.",
+    "required_words": [
+      "return",
+      "product",
+      "damaged",
+      "shipping"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "product",
+      "out",
+      "stock",
+      "restocked"
+    ],
+    "bot_response": "We strive to restock popular products whenever possible. Please sign up for product notifications to be informed when the item becomes available again.",
+    "required_words": [
+      "request",
+      "product",
+      "out",
+      "stock",
+      "restocked"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "listed",
+      "backordered"
+    ],
+    "bot_response": "Products listed as 'backordered' are temporarily out of stock but can still be ordered. Your order will be fulfilled once the product is restocked.",
+    "required_words": [
+      "order",
+      "product",
+      "listed",
+      "backordered"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "purchased",
+      "sale",
+      "discount"
+    ],
+    "bot_response": "Yes, you can return a product purchased during a sale or with a discount. The refund will be processed based on the amount paid after the discount.",
+    "required_words": [
+      "return",
+      "product",
+      "purchased",
+      "sale",
+      "discount"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "product",
+      "repair",
+      "replacement",
+      "damaged"
+    ],
+    "bot_response": "If you receive a damaged product, please contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+    "required_words": [
+      "request",
+      "product",
+      "repair",
+      "replacement",
+      "damaged"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "listed",
+      "out",
+      "stock",
+      "available",
+      "pre-order"
+    ],
+    "bot_response": "If a product is available for pre-order, you can place an order to secure your item. The product will be shipped once it becomes available.",
+    "required_words": [
+      "order",
+      "product",
+      "listed",
+      "out",
+      "stock",
+      "available",
+      "pre-order"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "purchased",
+      "gift"
+    ],
+    "bot_response": "Yes, you can return a product purchased as a gift. However, refunds will typically be issued to the original payment method used for the purchase.",
+    "required_words": [
+      "return",
+      "product",
+      "purchased",
+      "gift"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "product",
+      "listed",
+      "discontinued"
+    ],
+    "bot_response": "Unfortunately, if a product is listed as 'discontinued,' it is no longer available for purchase. We recommend exploring alternative products on our website.",
+    "required_words": [
+      "request",
+      "product",
+      "listed",
+      "discontinued"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "listed",
+      "sold",
+      "out"
+    ],
+    "bot_response": "If a product is listed as 'sold out,' it is currently unavailable for purchase. Please check back later or sign up for notifications when it becomes available again.",
+    "required_words": [
+      "order",
+      "product",
+      "listed",
+      "sold",
+      "out"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "purchased",
+      "gift",
+      "card"
+    ],
+    "bot_response": "Yes, you can return a product purchased with a gift card. The refund will be issued in the form of store credit or a new gift card.",
+    "required_words": [
+      "return",
+      "product",
+      "purchased",
+      "gift",
+      "card"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "product",
+      "currently",
+      "available",
+      "size"
+    ],
+    "bot_response": "If a product is not available in your size, it may be temporarily out of stock. Please check back later or sign up for size notifications.",
+    "required_words": [
+      "request",
+      "product",
+      "currently",
+      "available",
+      "size"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "listed",
+      "coming",
+      "soon",
+      "available",
+      "pre-order"
+    ],
+    "bot_response": "If a product is listed as 'coming soon' and available for pre-order, you can place an order to secure your item before it becomes available.",
+    "required_words": [
+      "order",
+      "product",
+      "listed",
+      "coming",
+      "soon",
+      "available",
+      "pre-order"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "purchased",
+      "discount",
+      "code"
+    ],
+    "bot_response": "Yes, you can return a product purchased with a discount code. The refund will be processed based on the amount paid after the discount.",
+    "required_words": [
+      "return",
+      "product",
+      "purchased",
+      "discount",
+      "code"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "custom",
+      "order",
+      "personalized",
+      "product"
+    ],
+    "bot_response": "We do not currently offer custom orders or personalized products. Please explore the available products on our website.",
+    "required_words": [
+      "request",
+      "custom",
+      "order",
+      "personalized",
+      "product"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "listed",
+      "temporarily",
+      "unavailable"
+    ],
+    "bot_response": "If a product is listed as 'temporarily unavailable,' it is out of stock but may be restocked in the future. Please check back later or sign up for notifications.",
+    "required_words": [
+      "order",
+      "product",
+      "listed",
+      "temporarily",
+      "unavailable"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "damaged",
+      "improper",
+      "use"
+    ],
+    "bot_response": "Our return policy generally covers products that are defective or damaged upon arrival. Damage due to improper use may not be eligible for a return. Please contact our customer support team for assistance.",
+    "required_words": [
+      "return",
+      "product",
+      "damaged",
+      "improper",
+      "use"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "product",
+      "listed",
+      "coming",
+      "soon",
+      "available",
+      "pre-order"
+    ],
+    "bot_response": "If a product is listed as 'coming soon' but not available for pre-order, you will need to wait until it is officially released and becomes available for purchase.",
+    "required_words": [
+      "request",
+      "product",
+      "listed",
+      "coming",
+      "soon",
+      "available",
+      "pre-order"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "listed",
+      "on",
+      "hold"
+    ],
+    "bot_response": "If a product is listed as 'on hold,' it is temporarily unavailable for purchase. Please check back later or sign up for notifications when it becomes available.",
+    "required_words": [
+      "order",
+      "product",
+      "listed",
+      "on",
+      "hold"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "original",
+      "receipt"
+    ],
+    "bot_response": "While a receipt is preferred for returns, we may be able to assist you without it. Please contact our customer support team for further guidance.",
+    "required_words": [
+      "return",
+      "product",
+      "original",
+      "receipt"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "product",
+      "listed",
+      "limited",
+      "edition",
+      "restocked"
+    ],
+    "bot_response": "Once a limited edition product is sold out, it may not be restocked. Limited edition items are available for a limited time only, so we recommend purchasing them while they are available.",
+    "required_words": [
+      "request",
+      "product",
+      "listed",
+      "limited",
+      "edition",
+      "restocked"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "listed",
+      "discontinued",
+      "visible",
+      "website"
+    ],
+    "bot_response": "If a product is listed as 'discontinued' but still visible on the website, it may be an error. Please contact our customer support team for clarification.",
+    "required_words": [
+      "order",
+      "product",
+      "listed",
+      "discontinued",
+      "visible",
+      "website"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "clearance",
+      "final",
+      "sale",
+      "item"
+    ],
+    "bot_response": "Clearance or final sale items are typically non-returnable and non-refundable. Please review the product description or contact our customer support team for more information.",
+    "required_words": [
+      "return",
+      "product",
+      "clearance",
+      "final",
+      "sale",
+      "item"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "product",
+      "not",
+      "listed",
+      "website"
+    ],
+    "bot_response": "If a product is not listed on our website, it may not be available for purchase. We recommend exploring the available products or contacting our customer support team for further assistance.",
+    "required_words": [
+      "request",
+      "product",
+      "not",
+      "listed",
+      "website"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "listed",
+      "out",
+      "stock",
+      "available",
+      "backorder"
+    ],
+    "bot_response": "If a product is listed as 'out of stock' but available for backorder, you can place an order to secure your item. The product will be shipped once it becomes available.",
+    "required_words": [
+      "order",
+      "product",
+      "listed",
+      "out",
+      "stock",
+      "available",
+      "backorder"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "purchased",
+      "bundle",
+      "set"
+    ],
+    "bot_response": "If a product was purchased as part of a bundle or set, the return policy may vary. Please refer to the specific terms and conditions or contact our customer support team for further guidance.",
+    "required_words": [
+      "return",
+      "product",
+      "purchased",
+      "bundle",
+      "set"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "product",
+      "listed",
+      "out",
+      "stock",
+      "restocked"
+    ],
+    "bot_response": "We aim to restock popular products whenever possible. Please sign up for product notifications to be alerted when the item becomes available again.",
+    "required_words": [
+      "request",
+      "product",
+      "listed",
+      "out",
+      "stock",
+      "restocked"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "listed",
+      "coming",
+      "soon",
+      "available",
+      "pre-order"
+    ],
+    "bot_response": "If a product is listed as 'coming soon' and available for pre-order, you can place an order to secure your item before it becomes available.",
+    "required_words": [
+      "order",
+      "product",
+      "listed",
+      "coming",
+      "soon",
+      "available",
+      "pre-order"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "damaged",
+      "mishandling",
+      "shipping"
+    ],
+    "bot_response": "If your product was damaged due to mishandling during shipping, please contact our customer support team immediately. We will assist you with the necessary steps for return and replacement.",
+    "required_words": [
+      "return",
+      "product",
+      "damaged",
+      "mishandling",
+      "shipping"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "product",
+      "listed",
+      "out",
+      "stock",
+      "reserved"
+    ],
+    "bot_response": "We do not offer reservations for out-of-stock products. However, you can sign up for product notifications to be alerted when the item becomes available again.",
+    "required_words": [
+      "request",
+      "product",
+      "listed",
+      "out",
+      "stock",
+      "reserved"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "listed",
+      "pre-order",
+      "available",
+      "backorder"
+    ],
+    "bot_response": "If a product is listed as 'pre-order' and available for backorder, you can place an order to secure your item. The product will be shipped once it becomes available.",
+    "required_words": [
+      "order",
+      "product",
+      "listed",
+      "pre-order",
+      "available",
+      "backorder"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "purchased",
+      "store",
+      "credit"
+    ],
+    "bot_response": "Yes, you can return a product purchased with store credit. The refund will be issued in the form of store credit, which you can use for future purchases.",
+    "required_words": [
+      "return",
+      "product",
+      "purchased",
+      "store",
+      "credit"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "product",
+      "currently",
+      "out",
+      "stock",
+      "restocked"
+    ],
+    "bot_response": "We strive to restock popular products whenever possible. Please sign up for product notifications to be informed when the item becomes available again.",
+    "required_words": [
+      "request",
+      "product",
+      "currently",
+      "out",
+      "stock",
+      "restocked"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "listed",
+      "sold",
+      "out",
+      "available",
+      "pre-order"
+    ],
+    "bot_response": "If a product is listed as 'sold out' but available for pre-order, you can place an order to secure your item. The product will be shipped once it becomes available.",
+    "required_words": [
+      "order",
+      "product",
+      "listed",
+      "sold",
+      "out",
+      "available",
+      "pre-order"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "return",
+      "product",
+      "purchased",
+      "promotional",
+      "gift",
+      "card"
+    ],
+    "bot_response": "Yes, you can return a product purchased with a promotional gift card. The refund will be issued in the form of store credit or a new gift card.",
+    "required_words": [
+      "return",
+      "product",
+      "purchased",
+      "promotional",
+      "gift",
+      "card"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "request",
+      "product",
+      "currently",
+      "available",
+      "preferred",
+      "color"
+    ],
+    "bot_response": "If a product is not available in your preferred color, it may be temporarily out of stock. Please check back later or sign up for color notifications.",
+    "required_words": [
+      "request",
+      "product",
+      "currently",
+      "available",
+      "preferred",
+      "color"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "order",
+      "product",
+      "listed",
+      "coming",
+      "soon",
+      "available",
+      "pre-order"
+    ],
+    "bot_response": "If a product is listed as 'coming soon' but not available for pre-order, you will need to wait until it is officially released and becomes available for purchase.",
+    "required_words": [
+      "order",
+      "product",
+      "listed",
+      "coming",
+      "soon",
+      "available",
+      "pre-order"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "return",
+      "promotional",
+      "event"
+    ],
+    "bot_response": "Yes, you can return a product purchased during a promotional event. The refund will be processed based on the amount paid after any applicable discounts.",
+    "required_words": [
+      "product",
+      "return",
+      "promotional",
+      "event"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "pendrive",
+      "how many",
+      "have"
+    ],
+    "bot_response": "These are the pendrives we have : DataTraveler 70 USB Flash Drive USB-C Flash Drive , DataTraveler 80 M USB-C Flash Drive USB Type-C1 storage on-the-go, DataTraveler Exodia M USB flash drive with moving cap in multiple colours, DataTraveler Exodia Onyx USB Flash Drive with sleek moving cap, DataTraveler Exodia USB Flash Drive with Protective Cap and Keyring in Multiple Colours, DataTraveler Kyson USB Flash Drive with Stylish Capless Metal Case, DataTraveler Max USB 3.2 Gen 2 Series Flash Drive Available in USB-C or USB-A, DataTraveler Micro USB Flash Drive with Ultra-Small Premium Metal Design, DataTraveler microDuo 3C USB Flash Drive USB Type-C and Type-A Flash Drive, DT4000G2 Encrypted USB Flash Drive FIPS 140-2 Level 3 Certified, Kingston IronKey D300S Encrypted USB Flash Drive FIPS 140-2 Level 3 Certified, Kingston IronKey Keypad 200 Series FIPS 140-3 Level 3 (Pending) with XTS-AES 256-bit Hardware Encryption, Kingston IronKey Locker+ 50 USB Flash Drive XTS-AES Encrypted for Data Protection with Automatic USBtoCloud Back Up, Kingston IronKey S1000 Encrypted USB Flash Drive On-Device Cryptochip and FIPS 140-2 Level 3 Certified, Kingston IronKey Vault Privacy 50 Series FIPS 197 Certified & XTS-AES 256-bit Encrypted USB Drive for Data Protection",
+    "required_words": [
+      "how",
+      "many",
+      "pendrive"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "DataTraveler",
+      "70"
+    ],
+    "bot_response": " Kingstons DataTraveler 70 is a USB 3.2 Gen 1 compliant portable, lightweight USB-C1 flash drive. It is designed to be used with compatible USB-C devices such as notebooks, laptops, tablets and phones. With capacities of up to 256GB2, the DataTraveler 70 is more than capable of expanding your storage for everyday use. It comes backed with a 5-year warranty and free tech support.",
+    "required_words": [
+      "product",
+      "description",
+      "Data",
+      "Traveler",
+      "70"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "DataTraveler 80 M"
+    ],
+    "bot_response": "Kingston DataTraveler 80 M is a high-performance flash drive designed to work with USB Type-C1 laptops, desktops, smartphones and tablets without the need for an adapter. With extremely fast read speeds of up to 200MB/s2, the DataTraveler 80 M allows for quick and convenient storage and file transfers. The compact, moving cap design features a key ring loop, making it ideal for on-the-go storage.",
+    "required_words": [
+      "product",
+      "description",
+      "DataTraveler 80 M"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "DataTraveler Exodia M"
+    ],
+    "bot_response": "Kingston DataTraveler Exodia M is a USB 3.2 Gen 1 compliant storage solution for laptops, desktop PCs, monitors and other digital devices. DT Exodia M allows quick transfers and convenient storage of documents, music, videos and more. It is available in multiple stylish colour options that correspond to capacities of up to 256GB1. Its practical design makes it an ideal on-the-go storage solution whether at work, home or school. DT Exodia M is backed by a five-year warranty, free technical support and legendary Kingston reliability.",
+    "required_words": [
+      "product",
+      "description",
+      "DataTraveler Exodia M"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "DataTraveler microDuo 3C"
+    ],
+    "bot_response": "DataTraveler microDuo 3C has a dual interface that works with both newer USB Type-C1 and traditional USB Type-A ports. It is an ideal way to free up space on your smartphone or tablet with up to 256GB2 of extra storage for your photos and videos. The eye-catching form factor offers convenient plug and play connectivity. Transfer files quickly between your devices with USB 3.2 Gen 1 speeds of up to 200MB/s read3. Whether you are on-the-go (OTG4) for work, travel or just out capturing the moments, the DT microDuo 3C is the perfect compact companion to backup, store more, and take everywhere you go.",
+    "required_words": [
+      "product",
+      "description",
+      "DataTraveler microDuo 3C"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "DataTraveler Exodia Onyx"
+    ],
+    "bot_response": "Kingston DataTraveler Exodia Onyx is a USB 3.2 Gen 1 compliant1 flash drive that delivers quick transfers for simple and easy storage. Designed with a sleek matt black casing, the DT Exodia Onyx is the perfect affordable companion for stylish storage. The drive is available in capacities of up to 256GB2.",
+    "required_words": [
+      "product",
+      "description",
+      "DataTraveler Exodia Onyx"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "DataTraveler Exodia"
+    ],
+    "bot_response": " Kingstons DataTraveler Exodia is a USB 3.2 Gen 1 compliant storage solution for laptops, desktop PCs, monitors and other digital devices. DT Exodia allows quick transfers and convenient storage of documents, music, videos and more. Its practical design and fashionable colours make it ideal for everyday use at work, home, school or wherever you need to take your data. DT Exodia is available in capacities up to 256GB1 and is backed by a five-year warranty, free technical support and legendary Kingston reliability.",
+    "required_words": [
+      "product",
+      "description",
+      "DataTraveler Exodia"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "DataTraveler Kyson"
+    ],
+    "bot_response": "Kingston DataTraveler Kyson is a high-performance Type-A USB flash drive with extremely fast transfer speeds of up to 200MB/s Read and 60MB/s Write1, allowing quick and convenient file transfers. With up to 256GB2 of storage, you can store and share photos, videos, music and other content on the go. The capless metal design will save you the trouble of losing a cap, and the functional loop makes it easy to be taken wherever you go.",
+    "required_words": [
+      "product",
+      "description",
+      "DataTraveler Kyson"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "DataTraveler Max"
+    ],
+    "bot_response": "Kingston DataTraveler Max series USB flash drives leverage the latest USB 3.2 Gen 2 standard to deliver record-breaking read/write speeds up to 1,000/900MB/s1. Designed with portability and convenience in mind, the unique ridged casing protects the connector when not in use and is easily moved with a single motion. Available in USB Type-C2 and Type-A connections to support next-gen and traditional laptops and desktops. The DT Max series delivers premium performance and expanded capacities up to 1TB3 making them the ideal solution for transferring and storing large digital files such as HD photos, 4K/8K videos, music and more. Both the Type-C and Type-A connector varieties in the DT Max series are backed by a limited five-year warranty, free technical support and legendary Kingston reliability.",
+    "required_words": [
+      "product",
+      "description",
+      "DataTraveler Max"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "DataTraveler Micro"
+    ],
+    "bot_response": "DataTraveler Micro is an ultra-small, lightweight USB drive ideal for convenient plug-and-stay storage that is compatible with computers, printers, gaming consoles and more. The drive is designed with a low-profile, premium metal casing and built-in key loop to leave in USB ports without interference. DT Micro delivers USB 3.2 Gen 1 speeds up to 200MB/s read1 and up to 256GB2 capacities to quickly transfer and store large files such as movies, music, games and photos.",
+    "required_words": [
+      "product",
+      "description",
+      "DataTraveler Micro"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "Kingstons DataTraveler 4000G2"
+    ],
+    "bot_response": "Kingston DataTraveler 4000G2 with Management offers affordable business-grade security with 256-bit AES hardware-based encryption in XTS mode, to safeguard 100 per cent of confidential data. For added peace of mind, the drive enforces complex password protection and locks down and reformats after 10 intrusion attempts. DT4000G2DM features Optional SafeConsole1 Management that enables a complete set of management tools. DataTraveler 4000G2DM is FIPS 140-2 Level 3 certified and TAA-compliant, and it is customisable to meet specific organisational needs.",
+    "required_words": [
+      "product",
+      "description",
+      "Kingstons DataTraveler 4000G2"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "Kingston IronKey D300S"
+    ],
+    "bot_response": "The Kingston IronKey D300S/SM USB flash drive features an advanced level of security which builds on the features that made IronKey well respected, to safeguard sensitive information. It is FIPS 140-2 Level 3 certified, with 256-bit AES hardware-based encryption in XTS mode. An essential pillar to setting security standards, corporate policies and data loss protection (DLP) best practices. An important element in the quest for compliance with industry standards and global regulations such as the GDPR.",
+    "required_words": [
+      "product",
+      "description",
+      "Kingston IronKey D300S"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "Kingston IronKey Keypad 200 Series"
+    ],
+    "bot_response": "The Kingston IronKey Keypad 200 series are OS-independent, hardware-encrypted USB Type-A and USB Type-C1 drives with an alphanumeric keypad for easy-to-use PIN access. The KP200 incorporates XTS-AES 256-bit hardware-based encryption. It also is FIPS 140-3 Level 3 (Pending) certified for military-grade security with enhancements that further raise the bar for data protection. Its circuitry is covered by a layer of special epoxy that makes it virtually impossible to remove components without damaging them; this tough epoxy stops attacks against the semiconductor components. The drive is designed to be tamper evident to alert owners. It also incorporates brute force password attack protection, and BadUSB protection with digitally signed firmware. The alphanumeric keypad is coated with a layer of polymer that protects the keys and hides key usage through analysis of fingerprints on the keys. KP200 series utilises a built-in rechargeable battery that can be used to unlock the drive first without using any software, and then plug it into any device that supports USB Type-A or USB Type-C mass storage devices. This gives users the most flexibility across different platform types and operating systems. With the Multi-PIN option (Admin/User), the keypad can be used to set up an easy-to-remember but hard-to guess alphanumeric PIN for the Admin or User accounts. Admin can restore a User PIN and provide access to the drive should the User PIN be forgotten, or if the drive is locked after reaching the maximum of 10 User login attempts. With both Admin and User PINs enabled, KP200 will lock the User PIN after 10 failed login attempts; if the Admin PIN is entered incorrectly 10 times in a row, brute force attack protection will crypto-erase the drive, destroy the data forever, and reset it.The drive also provides two levels of Read-Only (or Write-Protect) modes  a Global mode that can be set by Admin, and a session-only mode that can be set by User. Read-Only modes can protect the drive from malware on untrusted systems. In addition, Admin can load content and set Global Read-Only mode, so that User can access the data but not make any changes.",
+    "required_words": [
+      "product",
+      "description",
+      "Kingston IronKey Keypad 200 Series"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "Kingston IronKey Locker+ 50"
+    ],
+    "bot_response": " Kingston IronKey Locker+ 50 USB Flash drives provide consumer-grade security with AES hardware-encryption in XTS mode, including safeguards against BadUSB with digitally-signed firmware and Brute Force password attacks. LP50 is also TAA compliant.LP50 now supports multi-password (Admin and User) option with Complex or Passphrase modes. Complex mode allows for passwords from 6-16 characters using 3 out of 4 character sets. New passphrase mode allows for a numeric PIN, sentence, list of words or even lyrics from 10 to 64 characters long. Admin can enable a User password, or reset the User password to restore access to data. To aid in password entry, the 'eye' symbol can be enabled to reveal the typed in password, reducing typos leading to failed login attempts. Brute Force attack protection locks out User upon 10 invalid password entries in a row and crypto-erases the drive if the Admin password is entered incorrectly 10 times in a row. Additionally, a built-in virtual keyboard shields passwords from keyloggers or screenloggers. Locker+ 50 is designed for convenience with a small metal casing and built-in key loop to take data anywhere. LP50 also features optional USBtoCloud (by ClevX) backup to access data on the drive from your personal cloud storage through Google Drive, OneDrive (Microsoft), Amazon Cloud Drive, Dropbox or Box. LP50 is easy for anyone to setup and use, with no application installation required all the software and security needed is already on the drive. Works on both Windows and macOS so users can access files from multiple systems.",
+    "required_words": [
+      "product",
+      "description",
+      "Kingston IronKey Locker+ 50"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "Kingston IronKey S1000"
+    ],
+    "bot_response": "Kingston IronKey S1000 meets the strictest standards to make it the ultimate security drive. Safeguard 100 percent of confidential data with 256-bit AES hardware-based encryption, in XTS mode, and FIPS 140-2 Level 3 validation with on-device Cryptochip Encryption Key management. The drive detects and responds to physical tampering and provides automatic data protection upon drive removal. For added peace of mind, the drive uses digitally-signed firmware making it immune to BadUSB. S1000 allows for two passphrase types: either a complex password or a passphrase up to 255 characters long. After ten invalid password attempts, the drive locks down with the option to reformat or destroy it.",
+    "required_words": [
+      "product",
+      "description",
+      "Kingston IronKey S1000"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "description",
+      "Kingston IronKey Vault Privacy 50 Series"
+    ],
+    "bot_response": "Kingston IronKey Vault Privacy 50 series are premium USB Type-A and USB Type-C1 drives that provide enterprise-grade security with FIPS 197 certified AES 256-bit hardware-encryption in XTS mode, including safeguards against BadUSB with digitally-signed firmware and against brute force password attacks. VP50 has been penetration tested2 (pen tested) for enterprise-grade security. Because it provides encrypted storage under the user physical control, the VP50 series is superior to using the internet and cloud services to safeguard data. Vault Privacy 50 supports multi-password options (Admin, User and One-Time Recovery) with Complex or Passphrase modes. This enhances the ability to recover access to the data if one of the passwords is forgotten. Traditional Complex mode allows for passwords from 6-16 characters using 3 out of 4 character sets. The new Passphrase mode allows for a numeric PIN, sentence, list of words or even lyrics from 10 to 64 characters long. Admin can enable a User and a One-Time Recovery password, or reset the User password to restore data access. To aid in password entry, the 'eye' symbol can be enabled to reveal the typed-in password, reducing typos that lead to failed login attempts. Brute force attack protection locks out User or One-Time Recovery passwords if 10 invalid passwords are entered in a row, and crypto-erases the drive if the Admin password is entered incorrectly 10 times in a row.To protect against potential malware on untrusted systems, both Admin and User can set Read-Only mode to write-protect the drive; additionally, the built-in virtual keyboard shields passwords from keyloggers or screenloggers.Organisations can customise and configure VP50 series drives with a product ID (PID) for integration with standard endpoint management software to meet corporate IT and cybersecurity requirement through Kingston Customisation Programme.Small and medium businesses can use the Admin role to locally manage their drives, e.g. use Admin to configure or reset employee User or One-Time Recovery passwords, recover data access on locked drives and comply with laws and regulations when forensics are required.Vault Privacy 50 is waterproof with IPX8 rating3, TAA compliant and assembled in the USA.",
+    "required_words": [
+      "product",
+      "description",
+      "Kingston IronKey Vault Privacy 50 Series"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "DataTraveler 70"
+    ],
+    "bot_response": "Capacities : 64GB 128GB 256GB, Dimensions : 59.00mm x 18.50mm x 9.00mm, Weight : 7g, Operating temperature : 0 Degree Celsius until 60 Degree Celsius, Storage temperature : -20 Degree Celsius until 85 Degree Celsius, Warranty/support : 5-year warranty with free technical support, Compatible with :Windows 11/10/8.1 macOS (v. 10.15.x +) Linux (v. 4.4.x +) Chrome OS",
+    "required_words": [
+      "product",
+      "specify",
+      "DataTraveler 70"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "DataTraveler 80 M"
+    ],
+    "bot_response": "Capacities : 64GB 128GB 256GB, Interface : USB 3.2 Gen 1, Speed : Up to 200MB/s read, Dimensions: 54.18mm x 21.81mm x 11.60mm , Weight : 6g, Operating temperature : 0 Degree Celsius until 60 Degree Celsius , Storage temperature : -20 Degree Celsius until 85 Degree Celsius , Warranty/support : 5-year warranty with free technical support, Compatible with : Windows 11/10/8.1 macOS (v. 10.15.x +) Linux (v. 4.4.x +) Chrome OS",
+    "required_words": [
+      "product",
+      "specify",
+      "DataTraveler 80 M"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "DataTraveler Exodia M"
+    ],
+    "bot_response": "Capacities :64GB 128GB 256GB, Speed: USB 3.2 Gen 1 compliant, Dimensions: 67.4mm x 21.8mm x 11.6mm, Weight : 10g, Operating temperature : 0 Degree Celsius until 60 Degree Celsius , Storage temperature : -20 Degree Celsius until 85 Degree Celsius, Warranty : 5-year warranty, free technical support, Compatible with: Windows 11 10 macOS (v.10.15.x +) Linux (v. 4.4 +) Chrome OS",
+    "required_words": [
+      "product",
+      "specify",
+      "DataTraveler Exodia M"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "DataTraveler Exodia Onyx"
+    ],
+    "bot_response": "Capacities: 64GB 128GB 256GB, Speed : USB 3.2 Gen 1 compliant, Dimensions: 60.7mm x 21mm x 10.2mm, Weight : 8g, Operating temperature : 0 Degree Celsius until 60 Degree Celsius , Storage temperature:-20 Degree Celsius until 85 Degree Celsius, Warranty: 5-year warranty, free technical support, Compatible with: Windows 11 10 macOS (v.10.15.x +) Linux (v. 4.4 +) Chrome OS",
+    "required_words": [
+      "product",
+      "specify",
+      "DataTraveler Exodia Onyx"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "DataTraveler Exodia"
+    ],
+    "bot_response": "Capacities: 32GB 64GB 128GB 256GB, Speed: USB 3.2 Gen 1 compliant, Dimensions: 67.3mm x 21.04mm x 10.14mm, Weight: 11g, Operating temperature: 0 Degree Celsius until 60 Degree Celsius , Storage temperature: -20 Degree Celsius until 85 Degree Celsius , Warranty: 5-year warranty with free technical support, Compatible with: Windows 11 10 macOS (v. 10.15.x +) Linux (v. 4.4 +) Chrome OS",
+    "required_words": [
+      "product",
+      "specify",
+      "DataTraveler Exodia"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "DataTraveler Kyson"
+    ],
+    "bot_response": "Capacities: 32GB 64GB 128GB 256GB, Speed: USB 3.2 Gen 1 speeds 32GB-64GB: 200MB/s read 128GB-256GB: 200MB/s read 60MB/s write, Dimensions: 39mm x 12.6mm x 4.9mm, Weight: 4g, Operating temperature: 0 Degree Celsius until 60 Degree Celsius , Storage temperature: -20 Degree Celsius until 85 Degree Celsius , Warranty/support: 5-year warranty with free technical support, Compatible with: Windows 10 8.1 8 Mac OS (v.10.10.x +) Linux (v. 2.6.x +) Chrome OS",
+    "required_words": [
+      "product",
+      "specify",
+      "DataTraveler Kyson"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "DataTraveler Max"
+    ],
+    "bot_response": "Capacities: 256GB 512GB 1TB, Interface: USB 3.2 Gen 2, Speed: Up to 1,000MB/s read 900MB/s write, Dimensions: Type-C: 82.17 mm x 22.00 mm x 9.02 mm Type-A: 91.17 mm x 22.00 mm x 9.02 mm Weight: Type-C: 12g Type-A: 14g, Operating temperature: 0 Degree Celsius until 60 Degree Celsius , Storage temperature: -20 Degree Celsius until 85 Degree Celsius , Warranty/support: 5-year warranty with free technical support, Compatible with: Windows 11 10 8.1 macOS (v. 10.14.x +) Linux (v. 2.6.x +) Chrome OS",
+    "required_words": [
+      "product",
+      "specify",
+      "DataTraveler Max"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "DataTraveler Micro"
+    ],
+    "bot_response": "Capacities: 64GB 128GB 256GB, Speed: USB 3.2 Gen 1, 200MB/s Read, Dimensions: 24.95mm x 12.2mm x 4.5mm, Operating temperature: 0 Degree Celsius until 60 Degree Celsius , Storage temperature: -20 Degree Celsius until 85 Degree Celsius , Warranty/support: Five-year warranty free technical support, Compatible with: Windows 11 10 8.1 macOS (v.10.14.x +) Linux (v. 2.6.x +) Chrome OS",
+    "required_words": [
+      "product",
+      "specify",
+      "DataTraveler Micro"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "DataTraveler microDuo 3C"
+    ],
+    "bot_response": "Capacities: 64GB 128GB 256GB, Speed: USB 3.2 Gen 1, Dimensions: 29.94mm x 16.60mm x 8.44mm, Operating temperature: 0 Degree Celsius until 60 Degree Celsius , Storage temperature: -20 Degree Celsius until 85 Degree Celsius , Warranty/support: Five-year warranty free technical support, Compatible with: Windows 11 10 8.1 macOS (v.10.14.x +) Linux (v. 2.6.x +) Chrome OS",
+    "required_words": [
+      "product",
+      "specify",
+      "DataTraveler microDuo 3C"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "DT4000G2 Encrypted"
+    ],
+    "bot_response": "Interface: USB 3.0, Capacities: 8GB 16GB 32GB 64GB 128GB, Speed: USB 3.0 8GB - 16GB: 165MB/s read 22MB/s write 32GB: 250MB/s read 40MB/s write 64GB until 128GB: 250MB/s read 85MB/s write USB 2.0: 8GB - 128GB: 30MB/s read 20MB/s write, Dimensions: 77.9 mm x 22.2 mm x 12.05 mm, Waterproof: Up to 4 ft. conforms to IEC 60529 IPX8. Product must be clean and dry before use, Operating Temperature: 0 Degree Celsius to 60 Degree Celsius , Storage Temperature: -20 Degree Celsius to 85 Degree Celsius , Compatibility: USB 3.0 compliant and 2.0 compatible, Minimum System Requirements: USB 3.0 compliant and 2.0 compatible, Two (2) free drive letters required for use, Compatible with: Windows 10 Windows 8.1 Windows 8 macOS v.10.12.x until 10.15.x, Warranty/support: 5-year warranty, free technical support",
+    "required_words": [
+      "product",
+      "specify",
+      "DT4000G2 Encrypted"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "Kingston IronKey D300S"
+    ],
+    "bot_response": "Interface: USB 3.1 Gen 1, Capacities: 8GB 16GB 32GB 64GB 128GB, Speed: USB 3.1 Gen 1 - 8GB & 16GB: 165MB/s read 22MB/s write 32GB: 250MB/s read 40MB/s write 64GB: 250MB/s read 85MB/s write 128GB: 250MB/s read 85MB/s write USB 2.0 - 8GB-128GB: 30MB/s read 20MB/s write, Dimensions: 77.9 mm x 22.2 mm x 12.05 mm, Waterproof: Up to 4 ft. conforms to IEC 60529 IPX8. Product must be clean and dry before use, Operating temperature: 0 Degree Celsius to 60 Degree Celsius , Storage temperature: -20 Degree Celsius to 85 Degree Celsius , Compatibility: USB 3.0 compliant and 2.0 compatible, Standard drive until compatible with :Windows 11 10 8.1 macOS (v.10.14.x until 13.x.x) Linux v.2.6x+7 Managed drive until compatible with Windows 11 10 8.1 macOS (v.10.14.x until 13.x.x), Warranty/support: 5-year warranty, free technical support.",
+    "required_words": [
+      "product",
+      "specify",
+      "Kingston IronKey D300S"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "Kingston IronKey Keypad 200 Series"
+    ],
+    "bot_response": "Interface: USB 3.2 Gen 1, Connector: Type-A, Type-C, Capacities: Type-A: 8GB 16GB 32GB 64GB 128GB, Type-C: 8GB 16GB 32GB 64GB 128GB 256GB, Speed: USB 3.2 Gen 1 - Type-A: 145MB/s read, 115MB/s write; Type-C: 8GB until 32GB: 145MB/s read, 115MB/s write; 64GB until 256GB: 280MB/s read 200MB/s write USB 2.0 - 8GB: 30MB/s read 12MB/s write 16GB until 128GB: 30MB/s read 20MB/s write, Dimensions (drive with sleeve): 80mm x 20mm x 11mm, Dimensions (drive without sleeve): Type-A: 78mm x 18mm x 8mm; Type-C: 74mm x 18mm x 8mm, Security certifications: FIPS 140-3 Level 3, Waterproof/Dustproof: Certified to IP57 rating, Operating temperature: 0 Degree Celsius to 50 Degree Celsius , Storage temperature: -20 Degree Celsius to 60 Degree Celsius , Compatibility: USB 3.0/USB 3.1/USB 3.2 Gen 1, Minimum system requirements: USB 3.0 compliant and 2.0 compatible, Warranty/support: 3-year warranty, free technical support, Compatible with: OS-independent: Microsoft Windows macOS Linux Chrome OS Android 5 or any system that supports a USB mass storage device.",
+    "required_words": [
+      "product",
+      "specify",
+      "Kingston IronKey Keypad 200 Series"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "Kingston IronKey Locker+ 50"
+    ],
+    "bot_response": "Interface: USB 3.2 Gen 1, Capacities: 16GB 32GB 64GB 128GB, Connector: Type-A, Speed: USB 3.2 Gen 1 - 16GB until 128GB: 145MB/s read 115MB/s write USB 2.0 - 16GB until 128GB: 30MB/s read 20MB/s write, Cloud Services Supported: Google Drive OneDrive (Microsoft) Amazon S3 Dropbox Box, Dimensions: 60.56mm x 18.6 mm x 9.75 mm, Operating Temperature: 0 Degree Celsius  to 50 Degree Celsius , Storage Temperature: -20 Degree Celsius  to 85 Degree Celsius , Compatibility: USB 3.0/USB 3.1/USB 3.2 Gen 1, Minimum system requirements: Two (2) free consecutive drive letters required for use, Warranty/support: Limited 5-year warranty, free technical support. A 5-year licence (upon activation) to USBtoCloud is included with every IKLP50 drive. Upon expiration of software licence, USBtoCloud offers licensing options directly from ClevX, Compatible with: Windows 11 10 8.1 macOS (v. 10.14.x - 12.x.x).",
+    "required_words": [
+      "product",
+      "specify",
+      "Kingston IronKey Locker+ 50"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "Kingston IronKey S1000"
+    ],
+    "bot_response": "Interface: USB 3.0, Capacities: 4GB 8GB 16GB 32GB 64GB 128GB, Speed: USB 3.0 - 4GB-32GB 180MB/s read 80MB/s write 64GB: 230MB/s read 160MB/s write 128GB: 230MB/s read 240MB/s write USB 2.0 - 4GB-128GB 40MB/s read 35MB/s write, Dimensions: 82.3mm x 21.1mm x 9.1mm, Waterproof: Up to 3 ft; MIL-STD-810F, Operating Temperature: 0 Degree Celsius  to 70 Degree Celsius , Storage Temperature: -40 Degree Celsius  to 85 Degree Celsius , Minimum System Requirements: USB 3.0 compliant and 2.0 compatible Two (2) free drive letters required for use SafeConsole management service Licence required (Enterprise version only), Compatibility: USB 3.0 compliant and 2.0 compatible, Warranty/support: 5-year warranty free technical support, Basic model compatible with: Windows 10 Windows 8.1 Windows 8 MacOS (v. 10.12.x - 10.15.x) Linux (Kernel v.4.4.x +) Enterprise model compatible with: Windows 10 Windows 8.1 Windows 8 MacOS (v. 10.12.x - 10.15.x) Linux (Kernel v.4.4.x +).",
+    "required_words": [
+      "product",
+      "specify",
+      "Kingston IronKey S1000"
+    ]
+  },
+  {
+    "response_type": "FAQ",
+    "user_input": [
+      "product",
+      "specify",
+      "Kingston IronKey Vault Privacy 50"
+    ],
+    "bot_response": "Interface: USB 3.2 Gen 1. Capacities: 8GB, 16GB, 32GB, 64GB, 128GB, 256GB. \nConnector: Type-A, Type-C. \nSpeed: USB 3.2 Gen 1 - 8GB until 128GB: 250MB/s read, 180MB/s write; 256GB: 230MB/s read, 150MB/s write. USB 2.0 - 8GB until 256GB: 30MB/s read, 20MB/s write. \nDimensions: 77.9 mm x 21.9 mm x 12.0 mm. \nSecurity certifications: FIPS 197 Approved Security by SySS GmbH (penetration tested for enterprise-grade security). \nWaterproof: Up to 4 ft; IEC 60529 IPX8. \nOperating Temperature: 0 Degree Celsius  to 50 Degree Celsius . Storage Temperature: -20 Degree Celsius  to 85 Degree Celsius . Compatibility: USB 3.0, USB 3.1, USB 3.2 Gen 1. Warranty/support: Limited 5-year warranty, free technical support. Compatible with: Windows 11, Windows 10, macOS 10.15.x until 13.x",
+    "required_words": [
+      "product",
+      "specify",
+      "Kingston IronKey Vault Privacy 50"
+    ]
+  }
+]
