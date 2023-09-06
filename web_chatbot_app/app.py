@@ -3,10 +3,17 @@ from chatbot import Chatbot
 
 # functions
 from manage_chat import load_chat_history, save_chat_history, add_user_message, add_chatbot_response, update_feedback
+from intent_recogition import determine_intent
+
+from transformers import pipeline, Conversation
+# conversation = Conversation("")
+# conversation = chatbot(conversation)
+# conversation.generated_responses[-1]
 
 app = Flask(__name__)
 
-chatbot = None
+cs_chatbot = None
+general_chatbot  = None
 
 chat_history = []
 
@@ -14,12 +21,15 @@ CHAT_HISTORY_PATH = "chat_history.json"
 
 @app.before_first_request
 def initialize_chatbot():
-    global chatbot, chat_history
+    global cs_chatbot, general_chatbot, chat_history
     # chatbot = Chatbot()
-    chatbot = Chatbot(model="D:/tuned_dialogpt_Ecommerce_FAQ", 
-                      tokenizer="microsoft/DialoGPT-large")
-    # chatbot = Chatbot(model="C:/Users/User/Desktop/tuned_dialogpt_Ecommerce_FAQ", 
+    # chatbot = Chatbot(model="D:/tuned_dialogpt_Ecommerce_FAQ", 
     #                   tokenizer="microsoft/DialoGPT-large")
+    cs_chatbot = Chatbot(model="C:/Users/User/Desktop/fine_tuned_dialogpt_FAQ_Ecommerce", 
+                      tokenizer="microsoft/DialoGPT-large")
+    
+    general_chatbot = pipeline(model="microsoft/DialoGPT-medium")
+
     chat_history = load_chat_history(CHAT_HISTORY_PATH)
     # print(chat_history)
 
@@ -42,10 +52,31 @@ def update_feedback_script():
 def chat():
     data = request.json
     user_message = data['message']
-    feedback_value = data.get('feedback')  # Get feedback value from request data, it can be None
+    # Get feedback value from request data, it can be None
+    feedback_value = data.get('feedback')  
+
+    # Determine user intent (customer service or general)
+    intent = determine_intent(user_message)
+    # print(intent)
+    # print(user_message)
+
+    if intent == "customer_service":
+        # use fine tuned model to generate response
+        response = cs_chatbot.generate_response(user_message)
+    else:
+        # use general chatbot pipeline to generate response
+        conversation = Conversation(user_message)
+        conversation = response = general_chatbot(conversation, 
+                                                  max_length=500, 
+                                                  min_length=10, 
+                                                  temperature=0.6, 
+                                                  top_k=50, 
+                                                  top_p=0.95, 
+                                                  no_repeat_ngram_size=2, 
+                                                  pad_token_id=general_chatbot.tokenizer.eos_token_id)
+        response = conversation.generated_responses[-1]
     
     add_user_message(user_message, chat_history)
-    response = chatbot.generate_response(user_message)
     add_chatbot_response(response, chat_history)
     
     if feedback_value is not None:  # Only update feedback if it's provided
@@ -54,6 +85,7 @@ def chat():
     save_chat_history(chat_history, CHAT_HISTORY_PATH)  # Save chat history after each interaction
     
     return jsonify({'response': response})
+
 
 if __name__ == '__main__':
     app.run(debug=True)

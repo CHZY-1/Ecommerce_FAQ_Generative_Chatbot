@@ -13,7 +13,8 @@ class Chatbot:
             self.model = self.load_model(model)
             print("Model loaded")
 
-        self.tokenizer.padding_side = 'left'
+        # self.tokenizer.padding_side = 'left'
+        self.tokenizer.add_special_tokens({'pad_token': '[PAD]'})
 
         self.chat_history_ids = None
         self.reset_history = 0
@@ -45,7 +46,7 @@ class Chatbot:
         # For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
 
         # change padding to left causes bot to genearte wierd respond, use right padding instead
-        new_input_ids = self.tokenizer.encode(user_question + self.tokenizer.eos_token, return_tensors='pt')
+        new_input_ids = self.tokenizer.encode(user_question + self.tokenizer.eos_token, return_tensors='pt', padding=True, truncation=True, max_length=1024)
         # new_input_ids = self.tokenizer.encode(self.tokenizer.eos_token + user_question, return_tensors='pt')
 
         bot_input_ids = torch.cat([self.chat_history_ids, new_input_ids], dim=-1) if self.chat_history_ids is not None else new_input_ids
@@ -54,11 +55,11 @@ class Chatbot:
             bot_input_ids,
             max_length=500,
             min_length=10,
-            temperature=0.7, # controls the randomness of the generated responses, Lower value for more deterministic responses 
+            temperature=0.6, # controls the randomness of the generated responses, Lower value for more deterministic responses 
             # 1.0 make the responses more diverse and creative, lower values like 0.2 make the responses more focused and deterministic.
             top_k=50,  # controls the number of highest probability words to consider in each step of response generation. 
             top_p=0.95, # nuclear sampling, Higher value for more focused responses
-            no_repeat_ngram_size=3, # prevents the model from generating repetitive sequences of n-grams in the output.
+            no_repeat_ngram_size=2, # prevents the model from generating repetitive sequences of n-grams in the output.
             pad_token_id=self.tokenizer.eos_token_id
             )
 
@@ -84,7 +85,9 @@ class Chatbot:
         # For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
 
         # Change padding to left causes the bot to generate weird responses. Use right padding instead.
-        new_input_ids = self.tokenizer.encode(user_question + self.tokenizer.eos_token, return_tensors='pt')
+        new_input_ids = self.tokenizer.encode(user_question + + self.tokenizer.eos_token, return_tensors='pt', padding=True, truncation=True, max_length=1024)
+
+
         bot_input_ids = torch.cat([self.chat_history_ids, new_input_ids], dim=-1) if self.chat_history_ids is not None else new_input_ids
 
         responses = []

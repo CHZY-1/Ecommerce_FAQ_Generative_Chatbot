@@ -108,5 +108,120 @@
         "user_message": "what is the refund policy",
         "chatbot_response": "We do not offer refunds for any product purchased during the sale. Please contact our customer support team for further guidance.",
         "feedback": 1
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello! How are you? How are your kids?",
+        "feedback": null
+    },
+    {
+        "user_message": "what is your refund policy?",
+        "chatbot_response": "We have a refund policy where we offer refunds for products purchased with store credit. Please contact our customer support team with your order details.",
+        "feedback": null
+    },
+    {
+        "user_message": "can you assist me",
+        "chatbot_response": "Please contact our team with the details. We will assist you with the refund.",
+        "feedback": null
+    },
+    {
+        "user_message": "can you suggest some USB?",
+        "chatbot_response": "USB flash drive or USB flash drive. Please refer to our customer contact page. We offer refunds on products purchased on store.com.",
+        "feedback": null
+    },
+    {
+        "user_message": "i want to cancel my order, can you help me with it?",
+        "chatbot_response": "You can contact our contact our support",
+        "feedback": null
+    },
+    {
+        "user_message": "how long does shipping takes?",
+        "chatbot_response": "2 3 days usually. Contact our contact us with your contact us. We can contact you with your orders.",
+        "feedback": null
+    },
+    {
+        "user_message": "can i change my address after i purchased?",
+        "chatbot_response": "Contact our contact you contact our Customer support team. We have contact our Contact our customer service team with contact you.",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello! How are you? How are your kids?",
+        "feedback": null
+    },
+    {
+        "user_message": "Tell me the specification for DataTraveler microDuo 3C USB Flash Drive USB Type-C and Type-A Flash Drive",
+        "chatbot_response": null,
+        "feedback": null
+    },
+    {
+        "user_message": "Tell me the specification for Kingston IronKey D300S Encrypted USB Flash Drive FIPS 140-2 Level 3 Certified",
+        "chatbot_response": "USB 3.2 Gen 1 compliant and Type \u2013A Flash drive with moving cap and key loop for easy storage. The drive is available in capacities of up to 256GB2. The USB Type \u2013C Flash Drive is available with moving Cap and Key loop for up to 128GB2, and the USB Type -C Flash drive is compatible with up to 2.2 mm USB Type)A ports. The Flash Drive offers moving cap Speed of Up to 256MB/s read1. The flash drive is also available in USB 3.0 compliant, Dimensions: Dimensions: 77.9mm x 21.9 mm x 9.2mm x 9mm, Operating temperature:0\u00b0C to 85\u00b0C, Storage temperature: -20\u00b0C~C to -C to USB 3-C, Warranty/support: 5-year warranty, free technical support, Compatible with: USB 3 macOS (v.15.15, Compete drive (v2.15 and 2.15 macOS ()v.10.15 compliant, Compute))v2 ())) Linux (v3.x +)) (vUSB 3, Compability: USB 2.x -))USB 3))year warranty with: Limited Warranty/ Linux ( Linux () Linux -v.x-v.4.x)vUSB 2.4 +)v3 (v 3.x.x \u2013)) Chrome OS (v USB 3 (v 2. 4.x () ChromeOS ( Linux -) Linux-vUSB-v USBtoUSB 3 ( Linux- Linux (USB 3-v2)v USB 2)v Linux ( Chrome OSX +v.0.x/ Linux - Linux ( USB 3)v 2) Linux/ Linux-)v 3 ()USB 2)) USB 3 \u2013v.1.x+ Linux ( ( Linux v.x), Linux ( 3.4) Linux vUSB 3 - Linux -USB 3 \u2013 Linux ( v.4 ( Linux/v.2.x & Linux (.xUSB 3/ Linux v USB 3 -)v- Linux - Chrome OS- Linux v2.4- Linux-USB 3 + Linux (",
+        "feedback": null
+    },
+    {
+        "user_message": "hello, how are you?",
+        "chatbot_response": "I'm good, how are you?",
+        "feedback": null
+    },
+    {
+        "user_message": "hello, how are you",
+        "chatbot_response": "I'm good, how are you?",
+        "feedback": null
+    },
+    {
+        "user_message": "im good",
+        "chatbot_response": "I'm good too",
+        "feedback": null
+    },
+    {
+        "user_message": "can you tell me what is the return policy?",
+        "chatbot_response": "You can return it if it is damaged or damaged packaging or if you are not satisfied with the product. Please contact our customer support team with your order details.",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello! :D I'm so glad you're here!",
+        "feedback": null
+    },
+    {
+        "user_message": "thanks",
+        "chatbot_response": "You're welcome. I'm glad you liked it.",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello! :D I'm so glad you're here!",
+        "feedback": null
+    },
+    {
+        "user_message": "how are you",
+        "chatbot_response": "I'm good, how are u?",
+        "feedback": null
+    },
+    {
+        "user_message": "i forget my password, what should i do?",
+        "chatbot_response": "I think you should just forget your password.",
+        "feedback": null
+    },
+    {
+        "user_message": "what is the refund policy?",
+        "chatbot_response": "You can contact our customer support team for more information and to discuss your case with them. We will do our best to assist you with your request.",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello! :D I'm so glad you're here!",
+        "feedback": null
+    },
+    {
+        "user_message": "thanks",
+        "chatbot_response": "You're welcome. I'm glad you liked it.",
+        "feedback": null
+    },
+    {
+        "user_message": "can i leave product reviews?",
+        "chatbot_response": "Yes. Please do. Our customer service team reviews products. You can leave a review on our website or contact us directly. The review will be visible on the product page. Contact us for any inquiries. Happy holidays. Hope you find your product. Enjoy your new phone. Thanks. X",
+        "feedback": null
     }
 ]
