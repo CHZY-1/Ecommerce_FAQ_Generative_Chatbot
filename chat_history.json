@@ -93,5 +93,20 @@
         "user_message": "hello",
         "chatbot_response": "Hi can I join the chat and discuss the team details",
         "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello and thank you for the offer to join the team",
+        "feedback": 1
+    },
+    {
+        "user_message": "what food i want to eat tonight",
+        "chatbot_response": "I can't really say but I can't be a team without a team",
+        "feedback": -1
+    },
+    {
+        "user_message": "what is the refund policy",
+        "chatbot_response": "We do not offer refunds for any product purchased during the sale. Please contact our customer support team for further guidance.",
+        "feedback": 1
     }
 ]
