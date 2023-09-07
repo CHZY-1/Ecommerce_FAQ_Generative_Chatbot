@@ -223,5 +223,35 @@
         "user_message": "can i leave product reviews?",
         "chatbot_response": "Yes. Please do. Our customer service team reviews products. You can leave a review on our website or contact us directly. The review will be visible on the product page. Contact us for any inquiries. Happy holidays. Hope you find your product. Enjoy your new phone. Thanks. X",
         "feedback": null
+    },
+    {
+        "user_message": "hello, i want to request an invoice for my purchases",
+        "chatbot_response": "Please contact our customer support team with your order details and we will assist you with the invoice.",
+        "feedback": 1
+    },
+    {
+        "user_message": "what is the return policies?",
+        "chatbot_response": "We do not offer returns for products that are out of our size. Please contact the customersupport team for further guidance. We recommend placing an order as soon as possible to secure your item. If you receive an error message, please contact customer service immediately. Our return policy generally covers all returns, exchanges, cancellations, and disputes. Contact our Customer support for assistance. The refund will be processed based on the amount paid after any applicable discounts.. However, refunds will usually be issued to the original payment method used for the purchase. For further assistance, refer to our refund policy or contact us for a chat with our return assistance team. for specific instructions. Tell me the full details. contact details, including the refund, we offer free technical support. It",
+        "feedback": null
+    },
+    {
+        "user_message": "can you tell me the specification of usb dt4000g2?",
+        "chatbot_response": "USB 3.2 Gen 1 compliant, with 256GB2 of storage for your photos and videos. The DT4000G2 is available in USB-C and Type-A1 ports. It\u2019s the perfect affordable companion for on-the-go storage.",
+        "feedback": null
+    },
+    {
+        "user_message": "tell me a joke?",
+        "chatbot_response": "What's the heaviest soup in Asia? One ton.",
+        "feedback": null
+    },
+    {
+        "user_message": "can you tell me something about yourself?",
+        "chatbot_response": "I'm a student.",
+        "feedback": null
+    },
+    {
+        "user_message": "thanks you for help",
+        "chatbot_response": "You are welcome. Please leave a comment on my reference page if you have not already and I will do my best to refer you to the right place.",
+        "feedback": 1
     }
 ]
