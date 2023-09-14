@@ -17,8 +17,8 @@
             <div class="chat-box" id="chat-box">
             </div>
             <div class="input-container">
-                <input type="text" id="user-input" name="message" placeholder="Type your message..." onkeydown="handleInputKey(event)" autofocus>
-                <button id="send-button" form="chat-form" formaction="/chat">Send</button>
+                <input type="text" id="user-input" name="message" placeholder="Type your message..." onkeydown="handleInputKey(event)" autofocus required>
+                <button id="send-button" onclick="sendMessage()">Send</button>
             </div>
         </div>
     </div>
