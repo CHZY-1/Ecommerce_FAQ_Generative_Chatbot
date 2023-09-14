@@ -1,5 +1,5 @@
 import spacy
-from fuzzywuzzy import fuzz
+from thefuzz import fuzz
 
 def extract_keywords(user_message):
 
