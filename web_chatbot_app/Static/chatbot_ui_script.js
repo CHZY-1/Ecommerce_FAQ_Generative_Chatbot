@@ -1,8 +1,9 @@
 var chatHistory = []
+var botResponding = false;
 
 // UI Functions
 function handleInputKey(event) {
-    if (event.key === 'Enter') {
+    if (event.key === 'Enter' && !botResponding) {
         sendMessage();
     }
 }
@@ -14,6 +15,10 @@ function sendMessage() {
     if (userMessage !== '') {
         // Display user message
         displayUserMessage(userMessage);
+        
+        // stop user from entering question when chatbot is generating response
+        userInput.disabled = true;
+        botResponding = true;
 
         // Clear the input field
         userInput.value = '';
@@ -35,15 +40,26 @@ function displayUserMessage(message) {
     chatHistory.push({ sender: 'user', message: message });
 }
 
+// function displayChatbotMessage(message) {
+//     // Check if the message already exists in the chat history
+//     if (!chatHistory.some(entry => entry.sender === 'chatbot' && entry.message === message)) {
+//         if (message.toLowerCase().includes("start over") || message.toLowerCase().includes("reset")) {
+//             displayMessage(message, 'chatbot', false, true);
+//         } else {
+//             displayMessage(message, 'chatbot');
+//         }
+//         // Update chat history
+//         chatHistory.push({ sender: 'chatbot', message: message });
+//     }
+// }
+
 function displayChatbotMessage(message) {
-    // Check if the message already exists in the chat history
-    if (!chatHistory.some(entry => entry.sender === 'chatbot' && entry.message === message)) {
-        if (message.toLowerCase().includes("start over") || message.toLowerCase().includes("reset")) {
-            displayMessage(message, 'chatbot', false, true);
-        } else {
-            displayMessage(message, 'chatbot');
-        }
-        // Update chat history
+
+    if (message.toLowerCase().includes("start over") || message.toLowerCase().includes("reset")) {
+        displayMessage(message, 'chatbot', false, true);
+    } 
+    else {
+        displayMessage(message, 'chatbot');
         chatHistory.push({ sender: 'chatbot', message: message });
     }
 }
@@ -71,7 +87,7 @@ function displayMessage(message, sender, hideFeedback = false, isReset = false) 
     feedbackGiven = false;
 }
 
-// Server Communication
+// Communicate with server
 function sendUserMessageToServer(message, feedbackValue = null) {
     // user message and feedback value
     const data = {
@@ -90,9 +106,18 @@ function sendUserMessageToServer(message, feedbackValue = null) {
     })
     .then(response => response.json())
     .then(data => {
+
         // Display the chatbot's response
         displayChatbotMessage(data.response);
         console.log(data.response);
+
+        // allow user to enter question after response is generated and displayed
+        var userInput = document.getElementById('user-input');
+        userInput.disabled = false;
+        botResponding = false;
+
+        userInput.focus();
+
     })
     .catch(error => {
         console.error('Error:', error);
@@ -101,6 +126,7 @@ function sendUserMessageToServer(message, feedbackValue = null) {
 
 // Event Listeners
 window.onload = function() {
+    displayMessage("Hi there! How can I assist you ?", 'chatbot', true, false);
     // displayChatbotMessage("Hi there! How can I assist you?");
     var userInput = document.getElementById('user-input');
     userInput.focus();

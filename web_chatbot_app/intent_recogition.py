@@ -27,9 +27,9 @@ def determine_intent(user_message):
     user_keywords = extract_keywords(user_message)
 
     customer_service_keywords = ["customer service", "support", "help", "issue", "assistant" ,"problem", "account" "payment method", "order", "return policy", "price matching policy" , "price adjustment policy",
-                                 "shipping", "package", "product", "item", "reviews", "customer support", "warping service", "payment", "loyalty program", "bulk or wholesale discount", "return", 
+                                 "shipping", "package", "product", "item", "reviews", "customer support", "warpping service", "payment", "loyalty program", "bulk or wholesale discount", "return", 
                                  "cancel", "refund", "promo code", "stock", "email", "discount", "sale", "installation", "receipt", "delivery", "purchase", "invoice", "return a product", "packaging", 
-                                 "replacement", "sold out", "available", "clearance", "pre-order", "pendrive", "flash drive", "usb", "usb-c", "specification", "password"]
+                                 "replacement", "sold out", "available", "clearance", "pre-order", "pendrive", "flash drive", "usb", "usb-c", "specification", "password", "order", "pen drive", "gift warpping"]
 
     for keyword in user_keywords:
         for cs_keyword in customer_service_keywords:

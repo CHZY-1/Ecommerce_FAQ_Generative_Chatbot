@@ -313,5 +313,865 @@
         "user_message": "are you an AI?",
         "chatbot_response": "I am not.",
         "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello! :D I'm so glad you're here!",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello! :D I'm so glad you're here!",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I return the product purchased with a gift card ?",
+        "chatbot_response": "Yes, you can return a product purchase with the gift cards. The refund will be processed based on the amount paid after the discount.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I use multiple promo codes for my purchase ?",
+        "chatbot_response": "Only one promo code can be applied per order. Please refer to the specific terms and conditions or contact our customer support team for further guidance. We will assist you with returning the item if the issue persists. If not, contact the customersupport team. Tell me the details. Thanks. Happy holidays. :",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your return policy ?",
+        "chatbot_response": "We offer a one-time warranty on our products. Please contact our customer support team for more information and to discuss your specific requirements.",
+        "feedback": null
+    },
+    {
+        "user_message": "How long does shipping take",
+        "chatbot_response": "1-year warranty, free technical support, and free tech support. We recommend using our website to learn more and discuss our product offerings. If you have specific questions, please contact the customersupport team with your order details. Our customer service team will assist you with the necessary steps for return and replacement. The return process is handled by our corporate customer team. During the checkout process, you can enter your shipping address, shipping method,",
+        "feedback": null
+    },
+    {
+        "user_message": "What can I do when I receive a damaged package",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for return and replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "Where can I track my order ?",
+        "chatbot_response": "On the website where you purchased it. There should be a section where it will be listed. If not contact our Customer support for further guidance. Tell me the description for the product and the specifications. Please contact with our contact details to request a return or replacement, and we will do our best to assist. The product will arrive in its original condition and packaging. Happy holidays. :D",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I cancel my order",
+        "chatbot_response": "You can cancel your order if it has not been shipped yet. Please contact our customer support team with your orders details, and we will assist you with the cancellation process.",
+        "feedback": null
+    },
+    {
+        "user_message": "Got any wrapping services ?",
+        "chatbot_response": "I do! I'll PM you.",
+        "feedback": null
+    },
+    {
+        "user_message": "Thank you",
+        "chatbot_response": "You're welcome. I hope you enjoy it.",
+        "feedback": null
+    },
+    {
+        "user_message": "I'm looking for a pendrive for my friend's birthday. Any suggestions ?",
+        "chatbot_response": "A USB flash drive is ideal for your USB 3.2 Gen 1 compliant devices. If you need to change your mind, please contact the customersupport team. We will do our best to assist with such an event. The more you contact them the more likely the issue will be resolved. Contact our Customer support for further guidance. Tell me the details",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "Do you have any flash drives in stock ?",
+        "chatbot_response": "We do have a flash drive in our inventory. However, we do not offer replacement or repair for damaged products. Please contact our Customer support for further guidance. If you need assistance, please contact the customersupport team for assistance. Our customer service team will be able to assist with such cases. Contact our corporate customer relations team to discuss the issue. Tell me the model and model of the drive. Thanks. Happy",
+        "feedback": null
+    },
+    {
+        "user_message": "I need an assistant, my discount code is not working.",
+        "chatbot_response": "What discount is it not valid for?",
+        "feedback": null
+    },
+    {
+        "user_message": "product purchase discount",
+        "chatbot_response": "Ah I see. Thanks for the clarification. I will contact our customer support team to confirm the discount for you. If the issue persists, please contact the customersupport team for assistance. We will assist you with the necessary steps for return and replacement. Please contact us with your order details. Tell me the error message and the required details for activation. Happy holidays. :",
+        "feedback": null
+    },
+    {
+        "user_message": "I received the wrong item.",
+        "chatbot_response": "Please contact our customer support team with your order details. We will assist you with the correct item and assist with returning the incorrect item if it was purchased with a discount code. Please contact with our Customer support Team for further guidance. If you need further assistance, contact the customersupport team for assistance. Tell me the error message and the required steps. Thanks. Happy holidays. :D",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I order a sold out product ?",
+        "chatbot_response": "Contact our support with order information and we will guide you through the return and replacement process. The product will be shipped once it becomes available. For more information, visit",
+        "feedback": null
+    },
+    {
+        "user_message": "hi",
+        "chatbot_response": "Hey! :D I'm a big fan of your work!",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I return the product purchased with a gift card ?",
+        "chatbot_response": "Yes, you can return a product purchase with the gift cards. The refund will be processed based on the amount paid after the discount. If the refund is not processed, the item will remain in your inventory.",
+        "feedback": null
+    },
+    {
+        "user_message": "Any wrapping services avilable ?",
+        "chatbot_response": "No. However, we offer free technical support, free shipping, and free returns within 30 days of purchase. Please contact our customer support team for further assistance. We will assist you with any further questions. Contact our corporate customer service team with your order details, if applicable, to request a refund. Our customer reviews are usually",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I use multiple promo codes ? or single promo code?",
+        "chatbot_response": "You can use as many as you want.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I use multiple promo codes for my purchase ?",
+        "chatbot_response": "Only one promo code can be applied per order. Please doublecheck the terms and conditions associated with the promocode. If the issue persists, contact our customer support team for assistance. We will assist you with your order if the problem persists.",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your return policy ?",
+        "chatbot_response": "We do not offer returns without a receipt or proof of purchase. However, we may be able to assist with a full refund if your purchase was purchased with multiple promotional codes. Contact our Customer support for further guidance. Our return policies vary depending on the specific terms of the order, including applicable discounts, discounts",
+        "feedback": null
+    },
+    {
+        "user_message": "Hi",
+        "chatbot_response": "Hi! :D I'm a girl, but I'll take it!",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello! :D I'm so glad you're here!",
+        "feedback": null
+    },
+    {
+        "user_message": "I'm looking for a pendrive for my friend's birthday. Any suggestions ?",
+        "chatbot_response": "A USB flash drive is a perfect solution for your friend.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can you compare the features of the latest pendrive ?",
+        "chatbot_response": "I can't.the drive has a limited storage and is extremely limited in terms of features. However the drive will work with USB 3.2 Gen 1 devices. Both the USB Type-C and Type \u2013A ports are available in capacities of up to 256GB1. The drive in the Type -C1 Type) are designed to be used with compatible USB ports. For added peace of mind, the drives are backed by",
+        "feedback": -1
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged.",
+        "chatbot_response": "What was damaged?",
+        "feedback": null
+    },
+    {
+        "user_message": "Do you have any flash drives in stock ?",
+        "chatbot_response": "No. Unfortunately not. However, we do have a customer support team available to assist you with returning a product if the issue persists. Please contact our customer service team for assistance. We will do our best to resolve the matter as soon as possible. If not contact your localbitfinex customersupport team. Tell me the description for the damaged product and we will assist with the necessary steps. For further assistance, contact the customer contact us directly. The issue may be resolved. Contact our",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I return a discounted product ?",
+        "chatbot_response": "Only if it was purchased with a discount code. Otherwise you will need to wait until the product is officially released and becomes available for purchase again.",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I order a sold out product ?",
+        "chatbot_response": "You can place an order as soon as it becomes officially available. The discount will be applied once it is available again, and the item will still be available in the future. Please check back later or sign up for notifications. We will update the page with the order details. If not, contact our customer support team for further assistance. Tell me the details of your order. Thanks. Happy holidays.. :",
+        "feedback": null
+    },
+    {
+        "user_message": "I need an assistant, my discount code is not working.",
+        "chatbot_response": "What discount is it not valid for?",
+        "feedback": null
+    },
+    {
+        "user_message": "I received the wrong item.",
+        "chatbot_response": "Can I return the item if it was purchased with a discount card?",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello! :D I'm so glad you're here!",
+        "feedback": null
+    },
+    {
+        "user_message": "Can you compare the features of the latest pendrive ?",
+        "chatbot_response": "Pendingrive is a premium USB drive that delivers premium performance and convenience over the traditional traditional drive. It\u2019s available in multiple stylish colour options that correspond to capacities of up to 256GB1. The drive is backed by a five-year warranty, free technical support and legendary Kingston reliability.",
+        "feedback": null
+    },
+    {
+        "user_message": "I'm looking for a pendrive for my friend's birthday. Any suggestions ?",
+        "chatbot_response": " Kingston IronKey D300S Encrypted USB Flash Drive is the perfect affordable companion for your everyday use. An essential pillar to setting security standards, corporate policies and data loss protection (DLP",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged.",
+        "chatbot_response": "What was damaged?",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello! :D I'm so glad you're here!",
+        "feedback": null
+    },
+    {
+        "user_message": "I'm looking for a pendrive for my friend's birthday. Any suggestions ?",
+        "chatbot_response": "A USB flash drive is a perfect solution for your friend.",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged.",
+        "chatbot_response": "What was damaged? What should I do if it is damaged product. Please contact our customer support team for assistance. We will assist you with the necessary steps for repair or replacement. If the issue persists, contact your local repair center for further assistance, and refer to our return policy for instructions. Tell me the description for the specific product and specifications. For more information, please contact the customersupport team. Our customer",
+        "feedback": null
+    },
+    {
+        "user_message": "Do you have any flash drives in stock ?",
+        "chatbot_response": "Yes I do. Please check back later or sign up for notifications.",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I order a sold out product ?",
+        "chatbot_response": "You can place an order as soon as it becomes available. The product will be shipped once it is available, and will have tracking information. If it does not arrive within 7 business days, contact our customer support team for further assistance. We will assist you with the necessary steps. Tell me the product description, packaging and shipping address. Also contact us with your order details. For further guidance, please contact the customersupport team with any questions. Our customer service team",
+        "feedback": null
+    },
+    {
+        "user_message": "I received the wrong item.",
+        "chatbot_response": "Please contact our customer support team with your order details. We will assist you with the correct item and assist with returning the incorrect item if it was purchased with a discount code. Please contact with our Customer support Team for further guidance. If you need further assistance, contact the customersupport team for assistance. Tell me the error message and the required steps. Thanks. Happy holidays. :D",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello! :D I'm so glad you're here!",
+        "feedback": null
+    },
+    {
+        "user_message": "I'm looking for a pendrive for my friend's birthday. Any suggestions ?",
+        "chatbot_response": "A USB flash drive or a USB drive with a built-in key ring can be used to quickly transfer and store large files such as movies, music, games and more.",
+        "feedback": null
+    },
+    {
+        "user_message": "Do you have any flash drives in stock ?",
+        "chatbot_response": "I do not. However, Kingston IronKey is available in USB 3.2 Gen 1 and is backed by a five-year warranty, free technical support and legendary Kingston reliability. We recommend using it whenever possible. Please contact our customer support team for further guidance and to discuss your specific specific requirements, please refer to our website",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I return a discounted product ?",
+        "chatbot_response": "Only if it was purchased with a discount code. Otherwise you will need to wait until the product is officially released and becomes available for purchase again.",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello! :D I'm so glad you're here!",
+        "feedback": null
+    },
+    {
+        "user_message": "I'm looking for a pendrive for my friend's birthday. Any suggestions ?",
+        "chatbot_response": "A USB flash drive is a perfect solution for your friend.",
+        "feedback": null
+    },
+    {
+        "user_message": "Do you have any flash drives in stock ?",
+        "chatbot_response": "Not currently.We will be expanding our product offerings soon. Please check back later or sign up for notifications. We will update the product descriptions with the specifications and specifications. Tell me if you need more information. Thanks. Happy Birthday. Hope your day is as well as it can be. With your friends. The drive will save you the trouble of losing a cap, and the drive can read and write more. It\u2019s backed",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello! :D I'm so glad you're here!",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged.",
+        "chatbot_response": "What was damaged?",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I order a sold out product ?",
+        "chatbot_response": "Contact our customer support team with your order details. We will assist you with the necessary steps for return and replacement. Please contact our Customer support Team with detailed instructions. Tell me the description for the item and the required details for returning and returning the products. Thanks. Happy holidays. :D",
+        "feedback": null
+    },
+    {
+        "user_message": "I need an assistant, my discount code is not working.",
+        "chatbot_response": " Please refer to our return policy or contact us for assistance. Our customer service team will guide you through the return process. If the",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello, I received the wrong item.",
+        "chatbot_response": "Please contact our customer support team with your order details. We will assist you with the correct item and assist with returning the incorrect item if it was purchased with a discount code. Please contact with our Customer support Team for further guidance. If you need further assistance, please contact the customersupport team for assistance. Tell me the description for the item in the original post and contact us with it. Thanks. Happy holidays. :",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I return a discounted product ?",
+        "chatbot_response": "We do not offer refunds for discounts. However, you can sign up for product notifications to be alerted when the discount becomes available again",
+        "feedback": null
+    },
+    {
+        "user_message": "I'm looking for a flash drive for my friend's birthday. Any suggestions ?",
+        "chatbot_response": "I have a USB flashdrive for mine.",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello! :D I'm so glad you're here!",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "Do you have any flash drives in stock ?",
+        "chatbot_response": "We do have a flash drive in stock. Please check back later or sign up for notifications. We will be alerted when the product becomes available again.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can you compare the features of the latest pendrive ?",
+        "chatbot_response": "We do not currently offer product updates for the pendrive. We recommend using the product description or contact our customer support team for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I order a sold out product ?",
+        "chatbot_response": "Contact our customer support team with your order details and we will assist you with the necessary steps for secure delivery.",
+        "feedback": null
+    },
+    {
+        "user_message": "I received the wrong item for my purchased with promo code.",
+        "chatbot_response": "Contact our customer support team with your order details and we will assist you with the necessary steps for secure delivery.",
+        "feedback": null
+    },
+    {
+        "user_message": "I received the wrong item for my purchased.",
+        "chatbot_response": " Contact our customer support team with your order details and we will assist you with the necessary steps for secure delivery.",
+        "feedback": null
+    },
+    {
+        "user_message": "I received the wrong item for my purchased using the promo code.",
+        "chatbot_response": "Please contact our customer support team with your order details to request the correct item.",
+        "feedback": null
+    },
+    {
+        "user_message": "How long does shipping take usually ?",
+        "chatbot_response": "Usually takes 3 business days. Contact our customer support team for further guidance.",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your return policy ?",
+        "chatbot_response": "We do not offer returns without a receipt. Please contact our customer support team for further guidance.",
+        "feedback": null
+    },
+    {
+        "user_message": "Any gift wrapping services available ?",
+        "chatbot_response": "We do not offer returns without a receipt. Please contact our customer support team for further guidance.",
+        "feedback": null
+    },
+    {
+        "user_message": "Any gift wrapping services is available ?",
+        "chatbot_response": "Not currently available for purchase. Please check back later or sign up for notifications.",
+        "feedback": null
+    },
+    {
+        "user_message": "gift wrapping services",
+        "chatbot_response": "I'm not sure if you're serious, but I'm pretty sure that's a scam.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I cancel my order ?",
+        "chatbot_response": "You can cancel your order if it has not been shipped yet. Please contact our customer support team with your order details, and we will assist you with the cancellation process.",
+        "feedback": null
+    },
+    {
+        "user_message": "Where can I track my order ?",
+        "chatbot_response": "You can contact our customer support team for further guidance.",
+        "feedback": null
+    },
+    {
+        "user_message": "Thank you",
+        "chatbot_response": "You're welcome. I hope you enjoy it.",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "How long does shipping take usually ?",
+        "chatbot_response": "Shipping times vary depending on the destination and the shipping method chosen. Standard shipping usually takes 3-5 business days, while express shipping can take 1-2 business days.",
+        "feedback": null
+    },
+    {
+        "user_message": "Any gift wrapping services available ?",
+        "chatbot_response": "Gift Wrapping Services are available for select products. Please check the product description or contact our customer support team for more information.",
+        "feedback": null
+    },
+    {
+        "user_message": "Do you have any flash drives in stock ?",
+        "chatbot_response": "We do not currently offer flash drives in our products. However, we may be able to order a set of them.",
+        "feedback": null
+    },
+    {
+        "user_message": "I'm looking for a pendrive for my friend's birthday. Any suggestions ?",
+        "chatbot_response": "A USB flash drive is a perfect solution for your friend.",
+        "feedback": null
+    },
+    {
+        "user_message": "I received the wrong item, can you help me with it.",
+        "chatbot_response": "A USB flash drive is a perfect solution for your friend. Please contact our customer support team with your order details to request a product adjustment.",
+        "feedback": null
+    },
+    {
+        "user_message": "I received the wrong item for my order.",
+        "chatbot_response": " Please contact our customer support team with your order details to request a product adjustment.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can you compare the features of the latest flash drive ?",
+        "chatbot_response": " We will do our best to do our best to make the product as compatible with",
+        "feedback": null
+    },
+    {
+        "user_message": "What can I do when I receive a damaged package ?",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for return and replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I use multiple promo codes for my purchase ?",
+        "chatbot_response": "Only one promo code can be applied per order. Please refer to our Returns page for instructions.",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your return policy ?",
+        "chatbot_response": "We do not offer returns or exchanges for defective products. Please contact our customer support team for assistance.",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your return policy for product purchased within 30 days?",
+        "chatbot_response": "We do not offer returns or exchanges for products purchased with a discount code. Please contact our customer support team for further guidance.",
+        "feedback": null
+    },
+    {
+        "user_message": "What can I do when I receive a damaged package ?",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for return and replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "What can I do when I receive a damaged package ?",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for return and replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "What can I do when I receive a damaged package ?",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for return and replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "What can I do when I receive a damaged package ?",
+        "chatbot_response": "Contact our customer support team for assistance.",
+        "feedback": null
+    },
+    {
+        "user_message": "i received a damaged package.",
+        "chatbot_response": "Please contact our customer support team for assistance. We will assist you with the necessary steps for return and replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "i received a damaged package, what can i do?",
+        "chatbot_response": "Contact our customer support team for assistance. We will assist you with the necessary steps for return and replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "How long does shipping take ?",
+        "chatbot_response": "2 business days usually.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can you compare the features of the latest pendrive ?",
+        "chatbot_response": " to",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged.",
+        "chatbot_response": "What was damaged?",
+        "feedback": null
+    },
+    {
+        "user_message": "the product defected during shipping process.",
+        "chatbot_response": "What was damaged during shipping process. What was damaged during shipping process. What was damaged during shipping process. What was damaged during shipping process. What was damaged during shipping process. What was damaged during shipping process. What was damaged during",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "How long does shipping take ?",
+        "chatbot_response": "Shipping times vary depending on the destination and the shipping method chosen. Standard shipping usually takes 3-5 business days, while express shipping can take 1-2 business days.",
+        "feedback": null
+    },
+    {
+        "user_message": "How long does shipping take ?",
+        "chatbot_response": "Shipping times vary depending on the destination and the shipping method chosen. Standard shipping usually takes 3-5 business days, while express shipping can take 1-2 business days.",
+        "feedback": null
+    },
+    {
+        "user_message": "How long does shipping take usually?",
+        "chatbot_response": "2 business days usually. Standard shipping usually takes 3-5 business days.",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "Where can I track my order ?",
+        "chatbot_response": "There is a section on the right side of the page where you can enter your order details.",
+        "feedback": null
+    },
+    {
+        "user_message": "What can I do when I receive a damaged package ?",
+        "chatbot_response": "Contact our customer support team for assistance.",
+        "feedback": null
+    },
+    {
+        "user_message": "What can I do when I receive a damaged package ?",
+        "chatbot_response": "Contact our customer support team for assistance. We will assist you with the necessary steps for return and replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "Any gift wrapping services available ?",
+        "chatbot_response": "We offer free technical support, free technical support, and customer support.",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged",
+        "chatbot_response": " Contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "I need an assistant, my discount code is not working.",
+        "chatbot_response": "What discount code is not working. Please double check the terms and conditions associated with the code.",
+        "feedback": null
+    },
+    {
+        "user_message": "I need an assistant, my discount code is not working.",
+        "chatbot_response": "What discount code is not working. Please double check the terms and conditions associated with the code.",
+        "feedback": null
+    },
+    {
+        "user_message": "User: I need an assistant, my discount code is not working.",
+        "chatbot_response": "What is your discount code?",
+        "feedback": null
+    },
+    {
+        "user_message": "I need an assistant, my discount code is not working.",
+        "chatbot_response": "What is your discount code?",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your discount code?",
+        "chatbot_response": "What is your discount code?",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your discount code?",
+        "chatbot_response": "What is your discount code.",
+        "feedback": null
+    },
+    {
+        "user_message": "what is your refund policy?",
+        "chatbot_response": "What is your discount code.",
+        "feedback": null
+    },
+    {
+        "user_message": "what is your refund policy?",
+        "chatbot_response": "What is your discount code.",
+        "feedback": null
+    },
+    {
+        "user_message": "what is your refund policy?",
+        "chatbot_response": "?",
+        "feedback": null
+    },
+    {
+        "user_message": "reset",
+        "chatbot_response": "Conversation reset",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "what is your refund policy?",
+        "chatbot_response": "We do not offer refunds for products that are out of our size or price ranges. Please contact our customer support team for further guidance.",
+        "feedback": null
+    },
+    {
+        "user_message": "what is your refund policy?",
+        "chatbot_response": "We do not offer refunds for products that are out of our size or price ranges. Please contact our customer support team for further guidance.",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged",
+        "chatbot_response": " Please contact our customer support team for further guidance.",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged",
+        "chatbot_response": " Contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged",
+        "chatbot_response": "Contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I return a discounted product ?",
+        "chatbot_response": "We do not offer returns or exchanges for damaged products. Please contact our customer support team for assistance.",
+        "feedback": null
+    },
+    {
+        "user_message": "reset",
+        "chatbot_response": "Conversation reset",
+        "feedback": null
+    },
+    {
+        "user_message": "Any gift wrapping services available ?",
+        "chatbot_response": "We do offer gift wrapping services for select products. Please contact our customer support team for more information and to discuss your specific requirements.",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your return policy ?",
+        "chatbot_response": "We do not offer returns without a receipt or proof of purchase. Please contact our customer support team for further guidance.",
+        "feedback": null
+    },
+    {
+        "user_message": "How long does shipping take ?",
+        "chatbot_response": "2 business days usually.",
+        "feedback": null
+    },
+    {
+        "user_message": "How long does shipping take ?",
+        "chatbot_response": "2 business days usually. We strive to deliver on our promises.",
+        "feedback": 1
+    },
+    {
+        "user_message": "How long does shipping take ?",
+        "chatbot_response": "2 business days usually. We strive to deliver on our promises.",
+        "feedback": null
+    },
+    {
+        "user_message": "a",
+        "chatbot_response": " We strive to deliver on our",
+        "feedback": null
+    },
+    {
+        "user_message": "l",
+        "chatbot_response": " We strive to deliver on our promises. We strive to deliver on our promises. We strive to deliver on our promises. We strive to deliver on our promises. We strive to deliver on",
+        "feedback": null
+    },
+    {
+        "user_message": "reset",
+        "chatbot_response": "Conversation reset",
+        "feedback": null
+    },
+    {
+        "user_message": "I need an assistant, my discount code is not working.",
+        "chatbot_response": "What discount code is not working. Please double check the terms and conditions associated with the code.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I return a discounted product ?",
+        "chatbot_response": "You can return a product if it was purchased with a discount code. The refund will be processed based on the amount paid after the discount.",
+        "feedback": null
+    },
+    {
+        "user_message": "what is your refund policy?",
+        "chatbot_response": "We do not offer refunds for products purchased with a discount code. However, we may be able to assist you in returning a product purchased with a discount code.",
+        "feedback": null
+    },
+    {
+        "user_message": "what is your refund policy for purchased product with credit card ?",
+        "chatbot_response": "We do not offer refunds for purchased products. However, you can still initiate a chat with our customer support team for further guidance.",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I order a sold out product ?",
+        "chatbot_response": "We do not offer refunds for product purchased with a credit card. However, you can still initiate a chat with our customer support team for further guidance.",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "hiya",
+        "feedback": null
+    },
+    {
+        "user_message": "How long does shipping take ?",
+        "chatbot_response": "2 business days usually.",
+        "feedback": null
+    },
+    {
+        "user_message": "How long does shipping take ?",
+        "chatbot_response": "2 business days usually.",
+        "feedback": null
+    },
+    {
+        "user_message": "How long does shipping take usually?",
+        "chatbot_response": "2 business days usually.",
+        "feedback": null
+    },
+    {
+        "user_message": "How long does shipping take internationally?",
+        "chatbot_response": "Usually takes 3 business days for international shipping. Usually it takes 1 business day for domestic shipping.",
+        "feedback": null
+    },
+    {
+        "user_message": "Where can I track my order ?",
+        "chatbot_response": "You can use our website to find out the tracking information.",
+        "feedback": null
+    },
+    {
+        "user_message": "how can i track my order ?",
+        "chatbot_response": "You can use our website to find out the tracking information.",
+        "feedback": null
+    },
+    {
+        "user_message": "im not satisfied for my damaged product received.",
+        "chatbot_response": "What is your return policy if it is damaged due to improper use. Please contact our customer support team for assistance.",
+        "feedback": null
+    },
+    {
+        "user_message": "im not satisfied with the service",
+        "chatbot_response": "What is your preferred method of payment?",
+        "feedback": null
+    },
+    {
+        "user_message": "cash",
+        "chatbot_response": "How long does shipping take?",
+        "feedback": null
+    },
+    {
+        "user_message": "i dont know",
+        "chatbot_response": "How long does shipping take",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I cancel my order ?",
+        "chatbot_response": "You can cancel your order if it has not been shipped yet. Please contact our customer support team with your order details, and we will assist you with the cancellation process.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I use multiple promo codes for my purchase ?",
+        "chatbot_response": "Only one promo code can be applied per order. Please refer to our terms and conditions to learn more.",
+        "feedback": null
+    },
+    {
+        "user_message": "gift wrapping server available for my purchase?",
+        "chatbot_response": "Yes. Please contact our customer support team with your order details to request a gift wrap.",
+        "feedback": null
+    },
+    {
+        "user_message": "Any gift wrapping services available ?",
+        "chatbot_response": "We offer them for select products. Please contact our customer support team with your order details to request a gift wrap.",
+        "feedback": null
+    },
+    {
+        "user_message": "What can I do when I receive a damaged package ?",
+        "chatbot_response": "Contact our customer support team for assistance.",
+        "feedback": null
+    },
+    {
+        "user_message": "Thank you",
+        "chatbot_response": "You are welcome. Please leave a review if you liked the product.",
+        "feedback": null
+    },
+    {
+        "user_message": "thanks for your help!",
+        "chatbot_response": "You are welcome. Please leave a review if you liked the product.",
+        "feedback": null
+    },
+    {
+        "user_message": "I'm looking for a specific pendrive for my friend's birthday. Any suggestions ?",
+        "chatbot_response": "A USB 3.2 Gen 1 compliant USB flash drive is ideal for your specific needs.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I return a discounted product ?",
+        "chatbot_response": "Only if it is damaged or damaged upon arrival. Please contact our customer support team for assistance.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I return a damaged product upon arrival ?",
+        "chatbot_response": " Contact our customer support team for guidance.",
+        "feedback": null
+    },
+    {
+        "user_message": "I need some assistant, my discount code is not working.",
+        "chatbot_response": "What discount code is not working. Please double check the terms and conditions associated with the code.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I return the product purchased with a gift card ?",
+        "chatbot_response": "You can return the product purchased with a gift card. The refund will be processed based on the amount paid after the discount.",
+        "feedback": 1
+    },
+    {
+        "user_message": "Can I use multiple promo codes for my purchase ?",
+        "chatbot_response": "Only one promo code can be applied per order. Please refer to the terms and conditions or contact our customer support team for further assistance.",
+        "feedback": 1
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "I had an issue with my recent order, the product arrived damaged",
+        "chatbot_response": "We will contact our customer support team to resolve the issue.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I return a discounted product ?",
+        "chatbot_response": "We do not currently offer refunds for damaged products. Please contact our customer support team for assistance.",
+        "feedback": null
     }
 ]

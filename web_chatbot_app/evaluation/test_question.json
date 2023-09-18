@@ -1,0 +1,111 @@
+{
+    "common_questions": [
+        {
+            "question": "Hello",
+            "expected_responses": [
+                "Hello, how can I assist you today ?",
+                "Hi there, how may I help you ?",
+                "Greetings! What can I do for you ?"
+            ]
+        },
+        {
+            "question": "Can I return the product purchased with a gift card ?",
+            "expected_responses": [
+                "Yes, you can return a product purchased with a gift card. The refund will be issued in the form of store credit or a new gift card.",
+                "Absolutely, it's possible to return a product bought with a gift card, and you'll receive store credit or a new gift card as a refund.",
+                "Sure thing, if you've purchased a product with a gift card, you can still return it and get a refund in the form of store credit or a new gift card."
+            ]
+        },
+        {
+            "question": "Any gift wrapping services available ?",
+            "expected_responses": [
+                "Yes, we offer gift wrapping services for an additional fee. You can select the option to add gift wrapping to your order during the checkout process.",
+                "Certainly, we provide gift wrapping services at an extra cost. You'll find the option to include gift wrapping when you're placing your order.",
+                "Absolutely, we have gift wrapping services available for a small fee. You can choose to add gift wrapping to your order during checkout."
+            ]
+        },
+        {
+            "question": "Can I use multiple promo codes for my purchase ?",
+            "expected_responses": [
+                "Usually, only one promo code can be applied per order. During the checkout process, enter the promo code in the designated field to apply the discount to your order.",
+                "In general, our system allows the use of a single promo code per order. During checkout, you'll find a designated area to enter the promo code and enjoy the discount.",
+                "Normally, our policy permits the use of just one promo code per order. When you reach the checkout stage, you'll have the option to enter your promo code for the discount."
+            ]
+        },
+        {
+            "question": "What is your return policy ?",
+            "expected_responses": [
+                "Our return policy allows you to return products within 30 days of purchase for a full refund, provided they are in their original condition and packaging. Please refer to our returns page for detailed instructions.",
+                "You have the flexibility to return products within 30 days of purchase for a complete refund if they are in their original condition and packaging. Additional instructions can be found on our returns page.",
+                "Our return policy allows you to return your purchases within 30 days for a full refund, given that the items are in their original condition and packaging. Detailed instructions are available on our returns page."
+            ]
+        },
+        {
+            "question": "Can I cancel my order ?",
+            "expected_responses": [
+                "You can cancel your order if it has not been shipped yet. Please contact our customer support team with your order details, and we will assist you with the cancellation process.",
+                "Absolutely, order cancellations are possible as long as your order hasn't been shipped. Get in touch with our customer support team, provide your order information, and we will assist you in canceling it.",
+                "Certainly, you have the option to cancel your order if it has not yet been shipped. Contact our customer support team, provide your order details, and we'll help you with the cancellation steps."
+            ]
+        },
+        {
+            "question": "How long does shipping take ?",
+            "expected_responses": [
+                "Shipping times vary depending on the destination and the shipping method chosen. Standard shipping usually takes 3-5 business days, while express shipping can take 1-2 business days.",
+                "The duration of shipping depends on your delivery location and the shipping method you select. Standard shipping usually takes 3-5 business days, whereas express shipping is quicker, arriving in 1-2 business days.",
+                "Shipping durations vary based on your destination and the shipping method you choose. Standard shipping usually arrives in 3-5 business days, while express shipping can get to you in just 1-2 business days."
+            ]
+        },
+        {
+            "question": "Where can I track my order ?",
+            "expected_responses": [
+                "You can track your order by logging into your account and navigating to the 'Order History' section. There, you will find the tracking information for your shipment.",
+                "To track your order, simply log in to your account and visit the 'Order History' section. All the tracking details for your shipment will be available there.",
+                "Tracking your order is easy. Log in to your account, navigate to 'Order History,' and you'll discover all the tracking information you need for your shipment."
+            ]
+        },
+        {
+            "question": "What can I do when I receive a damaged package ?",
+            "expected_responses": [
+                "If you receive a damaged product, you can contact our customer support team immediately. We will assist you with the necessary steps for repair or replacement.",
+                "In the unfortunate event that you receive a damaged product, don't hesitate to get in touch with our customer support team right away. We are here to guide you through the required steps for repair or replacement.",
+                "Reach out to our customer support team without delay. We are ready to provide you with the necessary instructions for repair or replacement."
+            ]
+        },
+        {
+            "question": "Thank you",
+            "expected_responses": [
+                "You're welcome",
+                "No problem, happy to assist!",
+                "It's my pleasure!"
+            ]
+        }
+    ],
+    
+    "open_ended_questions": [
+        {
+            "question": "I'm looking for a pendrive for my friend's birthday. Any suggestions ?"
+        },
+        {
+            "question": "Can you compare the features of the latest pendrive ?"
+        },
+        {
+            "question": "I had an issue with my recent order, the product arrived damaged"
+        },
+        {
+            "question": "Do you have any flash drives in stock ?"
+        },
+        {
+            "question": "Can I return a discounted product ?"
+        },
+        {
+            "question": "How can I order a sold out product ?"
+        },
+        {
+            "question": "I need an assistant, my discount code is not working."
+        },
+        {
+            "question": "I received the wrong item."
+        }
+    ]
+}

@@ -23,10 +23,10 @@ CHAT_HISTORY_PATH = "chat_history.json"
 def initialize_chatbot():
     global cs_chatbot, general_chatbot, chat_history
     # chatbot = Chatbot()
-    cs_chatbot = Chatbot(model="D:/tuned_dialogpt_Ecommerce_FAQ", 
-                      tokenizer="microsoft/DialoGPT-large")
-    # cs_chatbot = Chatbot(model="C:/Users/User/Desktop/fine_tuned_dialogpt_FAQ_Ecommerce_1", 
+    # cs_chatbot = Chatbot(model="D:/tuned_dialogpt_Ecommerce_FAQ", 
     #                   tokenizer="microsoft/DialoGPT-large")
+    cs_chatbot = Chatbot(model="C:/Users/User/Desktop/fine_tuned_dialogpt_FAQ_Ecommerce_1", 
+                      tokenizer="microsoft/DialoGPT-large")
     
     general_chatbot = pipeline(model="microsoft/DialoGPT-medium")
 
@@ -56,7 +56,8 @@ def chat():
     feedback_value = data.get('feedback')  
 
     # Determine user intent (customer service or general)
-    intent = determine_intent(user_message)
+    # intent = determine_intent(user_message)
+    intent = "customer_service"
     # print(intent)
     # print(user_message)
 
@@ -66,10 +67,10 @@ def chat():
     else:
         # use general chatbot pipeline to generate response
         conversation = Conversation(user_message)
-        conversation = response = general_chatbot(conversation, 
+        conversation = general_chatbot(conversation, 
                                                   max_length=500, 
                                                   min_length=10, 
-                                                  temperature=0.6, 
+                                                  temperature=0.2, 
                                                   top_k=50, 
                                                   top_p=0.95, 
                                                   no_repeat_ngram_size=2, 
