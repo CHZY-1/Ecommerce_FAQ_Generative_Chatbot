@@ -1,27 +1,36 @@
 import spacy
 from thefuzz import fuzz
 
+# Extracts keywords from user message after removing stop words
 def extract_keywords(user_message):
 
     nlp = spacy.load("en_core_web_sm")
 
+    # tokenize message
     doc = nlp(user_message)
 
+    # extract lower case keywords from user msg
     keywords = [token.text.lower() for token in doc if not token.is_stop]
     return keywords
 
+# Finds the best keyword match for a user input in a list of keywords using fuzzy string matching
+# https://github.com/seatgeek/thefuzz
 def find_best_match(user_input, keyword_list):
     best_score = 0
     best_match = None
 
     for keyword in keyword_list:
+        # Calculate the similarity score (Levenshtein Distance) between the user input and the keyword
         similarity_score = fuzz.ratio(user_input, keyword)
+
+        # Update the best match if the current keyword has a higher score
         if similarity_score > best_score:
             best_score = similarity_score
             best_match = keyword
 
     return best_match
 
+# Determine the user intent by analyzing keywords
 def determine_intent(user_message):
 
     user_keywords = extract_keywords(user_message)
@@ -33,6 +42,7 @@ def determine_intent(user_message):
 
     for keyword in user_keywords:
         for cs_keyword in customer_service_keywords:
+            # if similarity score > 80
             if fuzz.ratio(keyword, cs_keyword) > 80:
                 return "customer_service"
 

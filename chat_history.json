@@ -1173,5 +1173,375 @@
         "user_message": "Can I return a discounted product ?",
         "chatbot_response": "We do not currently offer refunds for damaged products. Please contact our customer support team for assistance.",
         "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "how are you ?",
+        "chatbot_response": "I'm well. How are you. How are you. How are you. How are you. How are you. How are you. How are you. How are you. How are you. How are you. How are you",
+        "feedback": null
+    },
+    {
+        "user_message": "im good",
+        "chatbot_response": "I'm not the best. How are you. How are you. How are you. How are you. How are you. How are you. How are you. How are you. How are you. How",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "how are you ?",
+        "chatbot_response": "I'm well. How are you. How are you. How are you. How are you. How are you. How are you. How are you. How are you. How are you. How are you. How are you",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "ok, how are you ?",
+        "chatbot_response": "I'm well and you",
+        "feedback": null
+    },
+    {
+        "user_message": "im good",
+        "chatbot_response": "That is good to hear. How are the kids",
+        "feedback": null
+    },
+    {
+        "user_message": "not much",
+        "chatbot_response": "You can take the rest of the day if you need it.:P",
+        "feedback": null
+    },
+    {
+        "user_message": "thanks",
+        "chatbot_response": ":D I will.xD",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "How are you and your team doing. Hope you will be able to make the playoffs. We will need the support. If not, please contact our customer support team for assistance. Tell me the description for your product and we will assist",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "hello man",
+        "chatbot_response": "How are you and your team doing. Hope the rest of the team is well and the future is bright. Thanks for the support. We will be back soon. If not.We will.go to the next meet up. Tell me",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I create an account?",
+        "chatbot_response": "You can create a new account. There is a link in the sidebar to create your account and join the chat. The chat is on the right side. Look for a chat icon in your notifications. Type in",
+        "feedback": null
+    },
+    {
+        "user_message": "What payment methods do you accept?",
+        "chatbot_response": "We accept major credit cards, debit cards and PayPal as payment options for online orders.",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": ". Can I request a product that is currently out of stock to be restocked?",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I contact customer support?",
+        "chatbot_response": " We strive to restock popular products whenever possible. Please contact our customer service team with your order details to request the product be reserved for you.",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I contact customer support?",
+        "chatbot_response": "There is a contact form on the sidebar. If you have not been contacted yet, please check your inbox. I will assist you with the necessary steps. Tell me the description for the product and the required information for further assistance. Happy",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your return policy?",
+        "chatbot_response": " We do not offer returns without a receipt. However, we may be able to assist with a return without it. Contact our customer service team for assistance in such cases. We will contact you once the return is processed",
+        "feedback": null
+    },
+    {
+        "user_message": "What payment methods do you accept?",
+        "chatbot_response": "We accept major credit cards, debit cards and PayPal as payment options for online orders.",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I create an account?",
+        "chatbot_response": "Sign up for an email account and follow the instructions to complete the registration process. There is usually a section where you can enter your shipping address and password. If you have a smartphone or tablet, you will need to enter the address in",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.<|endoftext|>",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I create an account?",
+        "chatbot_response": "Sign up for the newsletter on our website and follow the instructions to complete the registration process. There is usually a link to the website where you can enter your email address. If you have not yet, please check back later or sign up",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your return policy?",
+        "chatbot_response": "I will be returning products if I receive a defective product. However, I will contact our customer support team immediately. We will assist you with the necessary steps for return and replacement. The return process will take place",
+        "feedback": null
+    },
+    {
+        "user_message": "Do you offer international shipping?",
+        "chatbot_response": "<|endoftext|>",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your price matching policy?",
+        "chatbot_response": "We do not price match products that are out of our size or price ranges. Please check the product description or contact our customer support team for more information and to discuss your specific requirements.",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I contact customer support?",
+        "chatbot_response": "Contact our team with your order details, and we will assist you with the necessary steps for price adjustment. We will be happy to assist wherever possible. If you require further assistance, please contact the customersupport team. Our",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I cancel my order?",
+        "chatbot_response": "You can cancel your order if it has not been shipped yet. Please contact our customer support team with your orders details, and we will assist you with the cancellation process.",
+        "feedback": null
+    },
+    {
+        "user_message": "Do you have a loyalty program?",
+        "chatbot_response": "Yes, we have an online loyalty system where you can earn points for every order. These points can be redeemed for discounts on future orders. Look for the'Earn more points'button on the bottom right corner of our website",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I use multiple promo codes on a single order?",
+        "chatbot_response": " Yes, you may use the discount code on your next order to save on shipping costs. The discount will",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your return policy?",
+        "chatbot_response": "We do not offer returns on products that are out of our size. However, we may be able to assist you in returning a product if it was purchased with a discount code. Look for the instructions in the sidebar to find out the",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I use multiple promo codes on a single order?",
+        "chatbot_response": "Thanks for your quick reply. I will check out your website. If I receive the wrong item in my order, please contact our customer support team immediately. We will assist with the correct item and refund the",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I order by phone?",
+        "chatbot_response": "Yes, you can place an order over the phone. The order will be shipped once it becomes available. If you need a tracking number, please contact our customer support team with your order details. We will assist you with the necessary",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your price matching policy?",
+        "chatbot_response": "Dont have a price match policy. However, we will price matched your product if the product is currently out of stock. Your order can be fulfilled by our standards. Our standards vary depending on the size",
+        "feedback": null
+    },
+    {
+        "user_message": "Hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "Are my personal and payment details secure?",
+        "chatbot_response": "Yes. Your information is secure. We recommend using a password protected email account for secure transactions. For added peace of mind, please refer to our terms and conditions for further guidance. If you have any further questions, contact our customer support team",
+        "feedback": null
+    },
+    {
+        "user_message": "Do you have a loyalty program?",
+        "chatbot_response": " Yes. I have loyalty programs. Our loyalty Programme provides discounts for loyalty points, free shipping and easy access to products that are currently out of stock. However, we do not offer product discounts or loyalty offers",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "Hello to you as well. Please check the new sticky for updates.",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "How are you and your team doing. Hope you will be able to make the playoffs. We will need the support. If not, please contact our customer support team for assistance. Tell me the description for your product and we will assist you",
+        "feedback": null
+    },
+    {
+        "user_message": "hi",
+        "chatbot_response": "Hiya! How are you? How is your day going?",
+        "feedback": null
+    },
+    {
+        "user_message": "good",
+        "chatbot_response": "That is good to hear",
+        "feedback": null
+    },
+    {
+        "user_message": "hello",
+        "chatbot_response": "How are your days",
+        "feedback": null
+    },
+    {
+        "user_message": "i need assitant",
+        "chatbot_response": "I need to be more specific. Please refer to the specific instructions.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I order without creating an account?",
+        "chatbot_response": "You can create an order as a guest. However, creating a new account is preferred. If you need a specific order ID, please contact our customer support team for assistance. We will assist you with creating the",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I cancel my order?",
+        "chatbot_response": "You can cancel your order if it has not been shipped yet. Please contact our customer support team with your orders details, and we will assist you with the cancellation process.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I cancel my order?",
+        "chatbot_response": "You can cancel your order if it has not been shipped yet. Please contact our customer support team with your orders details, and we will assist you with the cancellation process.",
+        "feedback": null
+    },
+    {
+        "user_message": "Do you offer gift wrapping services?",
+        "chatbot_response": "We offer them to select products. Your order will be shipped once it becomes available. We recommend placing an order as soon as possible. The recipient will receive the gift wrapped item upon arrival. For added peace of mind,",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your price adjustment policy?",
+        "chatbot_response": "We do not offer price adjustments during the checkout process. Please contact our customer support team for further guidance.",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your return policy?",
+        "chatbot_response": "Our return policies vary depending on the size of your order. If your product is damaged due to improper use, please contact the customersupport team immediately. We will assist you with the necessary steps for return and replacement. The return process",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I create an account?",
+        "chatbot_response": "Sign up for the newsletter on our website and follow the instructions to complete the registration process.",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your return policy?",
+        "chatbot_response": "We do not offer returns on products that are currently out of stock. Please check back later or sign up with our newsletter to be informed when the product becomes available again. We recommend placing an order as soon as possible. The return",
+        "feedback": null
+    },
+    {
+        "user_message": "What should I do if my package is lost or damaged?",
+        "chatbot_response": "Thanks for your inquiry. I will contact our customer support team immediately. If the issue persists, please contact the customersupport team for assistance. Our return policies vary depending on the",
+        "feedback": null
+    },
+    {
+        "user_message": "What is your price matching policy?",
+        "chatbot_response": "We do not price match products that are out of our size or price ranges. Please check the product description or contact our customer support team for more information and to discuss your specific requirements.",
+        "feedback": null
+    },
+    {
+        "user_message": "hello, how are you",
+        "chatbot_response": "I'm well and you",
+        "feedback": null
+    },
+    {
+        "user_message": "im good",
+        "chatbot_response": "That is good",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I create an account?",
+        "chatbot_response": "go to the website and follow the instructions",
+        "feedback": null
+    },
+    {
+        "user_message": "What payment methods do you accept?",
+        "chatbot_response": "PayPal is preferred",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I track my order?",
+        "chatbot_response": "You can use our website to place an order.",
+        "feedback": null
+    },
+    {
+        "user_message": "How long does shipping take?",
+        "chatbot_response": "2 business days usually.",
+        "feedback": null
+    },
+    {
+        "user_message": "How can I contact customer support?",
+        "chatbot_response": "We will contact our customer support team with your order details, and assist you with the necessary steps.",
+        "feedback": null
+    },
+    {
+        "user_message": "Are my personal and payment details secure?",
+        "chatbot_response": "Yes. Your information is secure. We recommend using our secure message system to initiate a secure message.",
+        "feedback": null
+    },
+    {
+        "user_message": "Do you have a loyalty program?",
+        "chatbot_response": "We do have a loyal program. Please visit our website to learn more and join the program.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I order without creating an account?",
+        "chatbot_response": "You can place an order as a guest without creating a customer account. However, creating an order without a customer profile is against our terms and conditions. Please contact our customer support team for further guidance.",
+        "feedback": null
+    },
+    {
+        "user_message": "What payment methods do you accept?",
+        "chatbot_response": "We accept major credit cards, debit cards, and PayPal as payment methods for online orders.",
+        "feedback": null
+    },
+    {
+        "user_message": "Can I use multiple promo codes on a single order?",
+        "chatbot_response": "Only one promo code can be applied per order. Please refer to our terms and conditions for more information.",
+        "feedback": null
+    },
+    {
+        "user_message": "What should I do if my package is lost or damaged?",
+        "chatbot_response": "Contact our customer support team for assistance.",
+        "feedback": null
+    },
+    {
+        "user_message": "my package is lost or damaged",
+        "chatbot_response": " Please contact our customer service team for further assistance. We will assist you with the necessary steps for repair or replacement.",
+        "feedback": null
+    },
+    {
+        "user_message": "thank you",
+        "chatbot_response": "You are welcome. Please leave a review if you liked the product.",
+        "feedback": null
     }
 ]

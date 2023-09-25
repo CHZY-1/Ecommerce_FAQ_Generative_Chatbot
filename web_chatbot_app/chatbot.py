@@ -15,9 +15,11 @@ class Chatbot:
 
         # self.tokenizer.padding_side = 'left'
         self.tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+
         self.chat_history_ids = None
         self.reset_history = 0
         self.conversation_context = []
+        self.prev_generated_response = []
 
     def load_tokenizer_and_model(self, model_name):
         print(f"Loading model : {model_name} ...")
@@ -49,21 +51,22 @@ class Chatbot:
 
         # change padding to left causes bot to genearte wierd respond, use right padding instead
         new_input_ids = self.tokenizer.encode(user_question + self.tokenizer.eos_token, return_tensors='pt', padding=True, truncation=True, max_length=512)
-        # new_input_ids = self.tokenizer.encode(self.tokenizer.eos_token + user_question, return_tensors='pt')
+        # new_input_ids = self.tokenizer.encode(user_question + self.tokenizer.eos_token, return_tensors='pt', max_length=512)
 
+        # concat new input with chat history id to create input tensor for Nlg
         bot_input_ids = torch.cat([self.chat_history_ids, new_input_ids], dim=-1) if self.chat_history_ids is not None else new_input_ids
 
         # https://huggingface.co/docs/transformers/main_classes/text_generation
 
         chat_history_ids = self.model.generate(
             bot_input_ids,
-            max_length=500,
+            max_length=512,
             min_length=10,
             temperature=0.7, # controls the randomness of the generated responses, Lower value for more deterministic responses 
             # 1.0 make the responses more diverse and creative, lower values like 0.2 make the responses more focused and deterministic.
             top_k=50,  # controls the number of highest probability words to consider in each step of response generation. 
             top_p=0.95, # nuclear sampling, Higher value for more focused responses
-            # no_repeat_ngram_size=2, # prevents the model from generating repetitive sequences of n-grams in the output.
+            no_repeat_ngram_size=2, # prevents the model from generating repetitive sequences of n-grams in the output.
             # do_sample = True ,
             # early_stopping=True,
             max_time = 5.0,
@@ -75,7 +78,10 @@ class Chatbot:
             pad_token_id=self.tokenizer.eos_token_id
             )
 
+        # Slice the chat history to isolate the generated response and decode it
         response = self.tokenizer.decode(chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)
+
+        self.prev_generated_response.append(response)
 
         print(response)
         print("is repetitive : " + str(self.is_repetitive_response(response)))
@@ -90,16 +96,19 @@ class Chatbot:
 
         return response
     
-
-    # use parameters no_repeat_ngram_size in generate respond to handle repetitive respond.
+    # Check if the current response is repetitive comparing it to the previous response and user question.
     def is_repetitive_response(self, response, threshold=3):
         if self.chat_history_ids is not None:
+
+
             # prev_response = self.tokenizer.decode(self.chat_history_ids[:, -1], skip_special_tokens=True)
 
-            prev_response = self.tokenizer.decode(self.chat_history_ids[0, -1], skip_special_tokens=True)
-            prev_user_question = self.conversation_context[-1]
+            # print("prev response  : " + self.prev_generated_response[-1])
 
-            if response == prev_response and prev_user_question == self.conversation_context[-2]:
+            prev_response = self.prev_generated_response[-2]
+            current_user_question = self.conversation_context[-1]
+
+            if response == prev_response and not (current_user_question == self.conversation_context[-2]):
                 self.reset_history += 1
                 print("Repetitive response. Reset Count:", self.reset_history)
                 return self.reset_history >= threshold

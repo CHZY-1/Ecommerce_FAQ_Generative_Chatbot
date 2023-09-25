@@ -22,9 +22,15 @@ def add_chatbot_response(response, chat_history):
     chat_history[-1]["chatbot_response"] = response
 
 def update_feedback(message, feedback_value, chat_history, chat_history_file):
+
+    # last entry allow feedback
     for entry in reversed(chat_history):
+
+        # Check if the chatbot response in this entry matches the specified message.
         if entry["chatbot_response"] == message:
+            # update the feedback value
             entry["feedback"] = feedback_value
+
             # print(f"Updated feedback for response: {message}")
             # print(f"New feedback value: {feedback_value}")
             break

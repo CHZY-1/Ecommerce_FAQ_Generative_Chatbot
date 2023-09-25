@@ -53,29 +53,36 @@ function displayUserMessage(message) {
 //     }
 // }
 
+
+// Display a chatbot message in the interface
 function displayChatbotMessage(message) {
 
     if (message.toLowerCase().includes("start over") || message.toLowerCase().includes("reset")) {
+        // Display the message as a special reset message
         displayMessage(message, 'chatbot', false, true);
     } 
     else {
+        // /Display a chatbot message and store it in the chat history
         displayMessage(message, 'chatbot');
         chatHistory.push({ sender: 'chatbot', message: message });
     }
 }
 
-
+// Display message in the interface
 function displayMessage(message, sender, hideFeedback = false, isReset = false) {
     var chatBox = document.getElementById('chat-box');
     var messageDiv = document.createElement('div');
     
     if (isReset) {
+        // Display a reset message
         messageDiv.className = 'message reset-message';
         messageDiv.textContent = message;
     } else {
+        // Display user or chatbot message
         messageDiv.className = sender === 'chatbot' ? 'message chatbot-message' : 'message user-message';
         messageDiv.innerHTML = sender === 'chatbot' ? `<span class="message-label">Assistant:</span> ${message}` : `<span class="message-label">User:</span> ${message}`;
         
+        // show feedback button
         if (sender === 'chatbot' && !hideFeedback) {
             insertFeedbackButtons(messageDiv);
         }
