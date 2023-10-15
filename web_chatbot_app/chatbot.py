@@ -66,7 +66,7 @@ class Chatbot:
             # 1.0 make the responses more diverse and creative, lower values like 0.2 make the responses more focused and deterministic.
             top_k=50,  # controls the number of highest probability words to consider in each step of response generation. 
             top_p=0.95, # nuclear sampling, Higher value for more focused responses
-            no_repeat_ngram_size=2, # prevents the model from generating repetitive sequences of n-grams in the output.
+            no_repeat_ngram_size=3, # prevents the model from generating repetitive sequences of n-grams in the output.
             # do_sample = True ,
             # early_stopping=True,
             max_time = 5.0,

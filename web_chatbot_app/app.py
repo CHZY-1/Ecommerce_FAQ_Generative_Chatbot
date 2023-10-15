@@ -23,10 +23,10 @@ CHAT_HISTORY_PATH = "chat_history.json"
 def initialize_chatbot():
     global cs_chatbot, general_chatbot, chat_history
     # chatbot = Chatbot()
-    # cs_chatbot = Chatbot(model="D:/tuned_dialogpt_Ecommerce_FAQ", 
-    #                   tokenizer="microsoft/DialoGPT-large")
-    cs_chatbot = Chatbot(model="C:/Users/User/Desktop/fine_tuned_dialogpt_FAQ_Ecommerce_1", 
+    cs_chatbot = Chatbot(model="D:/fine_tuned_dialogpt_FAQ_Ecommerce_1", 
                       tokenizer="microsoft/DialoGPT-large")
+    # cs_chatbot = Chatbot(model="C:/Users/User/Desktop/fine_tuned_dialogpt_FAQ_Ecommerce_1", 
+    #                   tokenizer="microsoft/DialoGPT-large")
     
     general_chatbot = pipeline(model="microsoft/DialoGPT-medium")
 
